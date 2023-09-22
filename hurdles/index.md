@@ -1,7 +1,11 @@
-Hurdles of using forecasting as a tool for making sense of AI progress
-===
+---
+title: "Hurdles of using forecasting as a tool for making sense of AI progress"
+author: Nuño Sempere, Misha Yagudin
+date: \today
+urlcolor: blue
+---
 
-### Introduction
+## Introduction
 
 In recent years there have been various attempts at using forecasting to discern the shape of the future development of artificial intelligence:
 
@@ -12,7 +16,7 @@ In recent years there have been various attempts at using forecasting to discern
 
 Recently, Open Philanthropy—a large foundation which has been making multi-million dollar bets into AI and AI safety and funding some of the above exercises—commissioned Arb, a consultancy, to look into how to produce informative forecasting questions. As part of that project, here is a list of reasons why using forecasting to make sense of AI developments can be tricky, as well as a suggestion of ways forward.
 
-### Excellent forecasters and Superforecasters™ have an imperfect fit for long-term questions
+## Excellent forecasters and Superforecasters™ have an imperfect fit for long-term questions
 
 Here are some reasons why we might expect longer-term predictions to be more difficult:
 
@@ -22,7 +26,7 @@ Here are some reasons why we might expect longer-term predictions to be more dif
 4. In general, we have been in a period of comparative technological stagnation, and forecasters might be adapted to that, in the same way that e.g., startups adapted to low interest rates.
 5. Sub-sampling artifacts within good short-term forecasters are tricky. For example, my forecasting group Samotsvety is relatively bullish on transformative technological change from AI, whereas the Forecasting Research Institute's pick of forecasters for their existential risk survey was more bearish.
 
-### Forecasting loses value when decontextualized, and current forecasting seems pretty decontextualized
+## Forecasting loses value when decontextualized, and current forecasting seems pretty decontextualized
 
 Forecasting seems more valuable when it is commissioned with an eye to influencing a specific decision. For instance, suppose that you were thinking of startin a new startup. Then it would be interesting to look at:
 
@@ -45,7 +49,7 @@ My impression is that these questions don't have the immediacy of the previous e
 
 Overall, my impression is that forecasting questions about AI haven't been tied to specific decisions in a way that would make them incredibly valuable. This is curious, because if we look at the recent intellectual history of forecasting, its original raison d'être was to make US intelligence reports more useful, and those reports were directly tied to decisions. But now forecasts are presented separately. In our experience, it has often been more meaningful for forecasters to look in depth at a topic, and then produce a report which contains predictions, rather than producing predictions alone. But this doesn't happen often.
 
-### The phenomena of interest are really imprecise
+## The phenomena of interest are really imprecise
 
 Misha Yagudin recalls that he knows of five different operationalizations of "human level AGI". "Existential risk" is also ambiguous: does it refer to human extinction? or to losing a large fraction of possible human potential? if so, how is "human potential" operationalized?
 
@@ -75,7 +79,7 @@ Here are some lower-level but more specific examples:
 - Asking about what percentage of labour is automated gets tricky when, instead of automating exactly past labour, you automatize a complement. For example, instead of automatizing a restaurant as is, you design the menu and experience that is most amenable to being automated. Portable music devices don't automate concert halls, they provide a different experience. These differences matter when asking short-term resolvable questions about automation.
 - You might have some notion of a "leading lab". But operationalizing this is tricky, and simply ennumerating current "leading labs" risks them being sidelined by an upstart, or that list not including important Chinese labs, etc. In our case, we operationalized "leading lab" as "a lab that has performed a training run within 2 OOM of the largest ever at the time of the training run, within the last 2 years", which leans on the inclusive side, but requires keeping good data of what the largest training data is at each point in time, like [here](https://epochai.org/research/ml-trends), which might not be available in the future.
 
-### Many questions don't resolve until it's already too late.
+## Many questions don't resolve until it's already too late.
 
 Some of the questions we are most interested in, like "will AI permanently disempower humanity", "will there be a catastrophe caused by an AI system that kills >5%, or >95% of the human population", or "over the long-term, will humanity manage to harness AI to bring forth a flourishing future & achieve humanity's potential?" don't resolve until it's already too late.
 
@@ -88,7 +92,7 @@ This adds complications, because:
 
 Another way to frame this is that some stances about how the future of AI will go are unfalsifiable until a hypothesized treacherous turn in which humanity dies, but otherwise don't have strong enough views on short-term developments that they are willing to bet on short-term events. That seems to be the takeaway from the [late 2021 MIRI conversations](https://www.lesswrong.com/s/n945eovrA3oDueqtq), which didn't result in a string of $100k bets. While this is a disappointing position to be in, not sure that forecasting can do much here beyond pointing it out.
 
-### More dataset gathering is needed
+## More dataset gathering is needed
 
 A pillar of Tetlock-style forecasting is looking at historical frequencies and extrapolating trends. For the topic of AI, it might be interesting to do some systematic data gathering, in the style of Our World In Data-type work, on measures like:
 
@@ -104,7 +108,7 @@ A pillar of Tetlock-style forecasting is looking at historical frequencies and e
 
 Note that datasets for some of these exist, but systematic data collection and presentation in the style of [Our World In Data](https://ourworldindata.org/) would greatly simplify creating forecasting pipelines about these questions, and also produce an additional tool for figuring out "what is going on" at a high level with AI. As an example, there is a difference between "Katja Grace polls ML researchers every few years", and "there are pipelines in place to make sure that that survey happens regularly, and forecasting questions are automatically created five years in advance and included in forecasting tournaments with well-known rewards". [Epoch](https://epochai.org/) is doing some good work in this domain.
 
-### Forecasting AI hits the limits of Bayesianism in general
+## Forecasting AI hits the limits of Bayesianism in general
 
 The worries about Tetlock-style forecasting could be answered by saying: sure, that particular brand of forecasting isn't known to work on long-term predictions. But we have good theoretical reasons to think that Bayesianism is a good model of a perfect reasoner: see for example the review of [Cox's theorem](https://en.wikipedia.org/wiki/Cox%27s_theorem) in the first few chapters of [Probability Theory. The Logic of Science](https://annas-archive.org/md5/ddec0cf1982afa288d61db3e1f7d9323). So the thing that we should be doing is some version of subjective Bayesianism: keeping track of evidence and expressing and sharpening our beliefs with further evidence. See [here](https://nunosempere.com/blog/2022/08/31/on-cox-s-theorem-and-probabilistic-induction/) for a blogpost making this argument informally but more coherently.
 
@@ -120,7 +124,7 @@ Now, imagine that instead of being interested in AI progress, we were interested
 
 Similarly, for AI progress, one could notice that there is this subtle critique of forecasting and Bayesianism, and move to using, I don't know, scenario planning, which arguendo could be even worse, assume even more strongly that you know the shape of events to come, and not provide mechanisms for noticing that none of your hypotheses are worth much. I think that would be a mistake.
 
-### Forecasting also has a bunch of other limitations as a genre 
+## Forecasting also has a bunch of other limitations as a genre 
 
 Forecasting can be seen as a genre, in which someone writes a forecasting question, that question is deemed sufficiently robust, and then forecasters produce probabilities on it.
 
@@ -132,7 +136,7 @@ Perhaps also as a result of its unprofitability, the forecasting community has a
 
 Forecasting also makes use of scoring rules, which aim to reward forecasters such that they will be incentivized to input their true probabilities. Sadly, these often have the effect of incentivizing people to not collaborate and share information. This can be fixed by using more capital intensive scoring rules that incentivize collaboration, or by grouping forecasters into teams such that they will be incentivized to share information within a team.
 
-### As an aside, here is a casual review of the track record of long-term predictions
+## As an aside, here is a casual review of the track record of long-term predictions
 
 If we review the track record of superforecasters on longer term questions, we find that... there isn't that much evidence here—remember that the [ACE program](https://wikiless.nunosempere.com/wiki/Aggregative_Contingent_Estimation_Program?lang=en) started in 2010. In *Superforecasting* (2015), Tetlock wrote:
 
@@ -146,7 +150,7 @@ Karnofsky, the erstwhile head-honcho of Open Philanthropy, [spins](https://www.c
 > 
 > By contrast, people who had (relatively) accurate predictions had a deep understanding of the problem and also tended to have a record of learning lessons from past predictive errors. Due to the differences in the data sets between this post and Tetlock's work, the details are quite different here. The predictors that I found to be relatively accurate had deep domain knowledge and, implicitly, had access to a huge amount of information that they filtered effectively in order to make good predictions. Tetlock was studying people who made predictions about a wide variety of areas that were, in general, outside of their areas of expertise, so what Tetlock found was that people really dug into the data and deeply understood the limitations of the data, which allowed them to make relatively accurate predictions. But, although the details of how people operated are different, at a high-level, the approach of really digging into specific knowledge was the same.
 
-### In comparison with other mechanisms for making sense of future AI developments, forecasting does ok.
+## In comparison with other mechanisms for making sense of future AI developments, forecasting does ok.
 
 Here are some mechanisms that the EA community has historically used to try to make sense of possible dangers stemming from future AI developments:
 
@@ -166,9 +170,9 @@ None of these options, as they currently exist, seem great. Forecasting has the 
 
 Anyways, you might think that this forecasting thing shows potential. Money is not a limitation for you, so...
 
-### In this situation, here are some strategies of which you might avail yourself
+## In this situation, here are some strategies of which you might avail yourself
 
-#### A. Accept the Faustian bargain
+### A. Accept the Faustian bargain
 
 1. Make a bunch of short-term and long-term forecasting questions on AI progress
 2. Wait for the short-term forecasting questions to resolve
@@ -178,7 +182,7 @@ This is a Faustian bargain because of the reasons reviewed above, chiefly that s
 
 If you think that your other methods of making sense of what it's going on are sufficiently bad, you could choose this and hope for the best? Or, conversely, you could anchor your beliefs on a weighted aggregate of the best short-term forecasters and the most convincing theoretical views. Maybe things will be fine?
 
-#### B. Attempt to do a Bayesianism
+### B. Attempt to do a Bayesianism
 
 Go to the effort of rigorously formulating hypotheses, then keep track of incoming evidence for each hypothesis. If a new hypothesis comes in, try to do some version of [just-in-time bayesianism](https://nunosempere.com/blog/2023/02/04/just-in-time-bayesianism/), i.e., monkey-patch it after the fact. Once you are specifying your beliefs numerically, you can deploy some cute incentive mechanisms and [reward people who change your mind](https://github.com/SamotsvetyForecasting/optimal-scoring/blob/master/3-amplify-bayesian/amplify-bayesian.pdf).
 
@@ -186,6 +190,6 @@ Hope that keeping track of hypotheses about the development of AI at least gives
 
 [^tetlock]: Back in the day, Tetlock received a [grant](https://www.openphilanthropy.org/grants/university-of-pennsylvania-philip-tetlock-on-forecasting/#2-about-the-grant) to "systematically convert vague predictions made by prominent pundits into explicit numerical forecasts", but I haven't been able to track what happened to it.
 
-#### C. Invest in better prediction pipelines as a whole 
+### C. Invest in better prediction pipelines as a whole 
 
 Try to build up some more speculative and [formidable](https://nunosempere.com/blog/2023/07/19/better-harder-faster-stronger/) type of forecasting that can deal with the hurdles above. Be more explicit about the types of decisions that you want better foresight for, realize that you don't have the tools you need, and build someone up to be that for you.  
