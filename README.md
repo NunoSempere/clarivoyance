@@ -1,4 +1,4 @@
-# Arb <> Open Philanthropy clarivoyance project
+# Arb <> Open Philanthropy clairvoyance project
 
 This repository contains two documents commissioned by Open Philanthropy, on using forecasting to predict AI progress.
 
