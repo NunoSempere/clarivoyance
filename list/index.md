@@ -1,7 +1,7 @@
 ﻿AI safety forecasting questions
 ===============================
 
-**tl;dr**: This document contains a list of forecasting questions, commissioned by Open Philanthropy as part of its aim to have more accurate models of future AI progress. Many of these questions are more classic forecasting questions, others have the same shape but are unresolvable, still others look more like research projects or like suggestions of data gathering efforts. Below we give some recommendations of what to do with this list, mainly to feed them into forecasting and research pipelines. In a separate document, we outline reasons why using forecasting for discerning the future of AI may prove particularly difficult.
+**tl;dr**: This document contains a list of forecasting questions, commissioned by Open Philanthropy as part of its aim to have more accurate models of future AI progress. Many of these questions are more classic forecasting questions, others have the same shape but are unresolvable, still others look more like research projects or like suggestions of data gathering efforts. Below we give some recommendations of what to do with this list, mainly to feed them into forecasting and research pipelines. In a [separate document](https://nunosempere.com/blog/2023/11/07/hurdles-forecasting-ai/), we outline reasons why using forecasting for discerning the future of AI may prove particularly difficult.
 
 ## Table of Contents
 
