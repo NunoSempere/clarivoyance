@@ -47,9 +47,9 @@ An specification for a [resolution council] is discussed in a separate document,
 
 "Leading lab" is defined as a lab that has performed a training run within 2 orders of magnitude of the largest ever at the time of the training run, within the last 2 years.
 
-A floating point operation (FLOP) is here defined as one addition, subtraction, multiplication, or division of two decimal numbers, whatever their size. So doing substracting two 64 bit floats would here correspond to one FLOP, as would substracting two 8 bit "mini-floats". See [this document](https://github.com/NunoSempere/clarivoyance/blob/master/list/flops.md) for a short discussion of this point. 
+A floating point operation (FLOP) is here defined as one addition, subtraction, multiplication, or division of two decimal numbers, whatever their size. So doing subtracting two 64 bit floats would here correspond to one FLOP, as would subtracting two 8 bit "mini-floats". See [this document](https://github.com/NunoSempere/clarivoyance/blob/master/list/flops.md) for a short discussion of this point. 
 
-"Automating some fraction of labour" is operationalizes as follows:
+"Automating some fraction of labour" is operationalized as follows:
 - Consider all human work hours in 2023 and their intended outputs. Then at the question resolution year, when aiming to produce the same types of outputs, how many fewer human hours will one need to achieve the same kind of output, or a close substitute?
 - For example, consider all hours spent on secretary work in 1960. This work commonly requires much less time, since people no longer dictate to secretaries, and instead draft emails themselves. But some labour is still needed, so we might estimate that 95% of that work has been automated.
 - Note on substitutability: McDonald's uses some screens for customers to place orders, and together with a counter, this substitutes for waiters. However, these don't provide exactly the same experience of a waiter: the waiter might be more attentive, or add a "human touch". For cases such as this, consider the work to have been automated, even if it has been replaced by a close rather than exact automated substitute.
@@ -81,7 +81,7 @@ A floating point operation (FLOP) is here defined as one addition, subtraction, 
 - ★ By 2030 will there be a break in the current trend line for FLOPs per $ spent? 
 
 - ★★ Will progress stall for at least 4 years at any point before state–of-the-art accuracy on MMLU dataset reaches 100%?
-  - "Stalled" could be operationalised as something like 'less than 2% improvement in best score over a 4-year period)[^4] 
+  - "Stalled" could be operationalized as something like 'less than 2% improvement in best score over a 4-year period)[^4] 
   - Beware for this and other benchmark questions: Open AI may not have been careful enough about making sure benchmarking questions (and their answers) or very close variants of them were not in GPT-4's training data. If these people are right GPT-4's performance on benchmarks isn't a meaningful test of its intelligence. And nor is comparing another model's performance on the benchmark to GPT-4's a meaningful test of whether the model is better at reasoning than GPT-4: https://aisnakeoil.substack.com/p/gpt-4-and-professional-benchmarks. 
 
 - ★★ Will progress stall for at least 4 years at any point before state–of-the-art accuracy on the interview level problems on the APPS benchmark reaches 30% (pass@1)?[^5] (Stall=less than 2% improvement in best score over a 4-year period).
@@ -93,9 +93,9 @@ A floating point operation (FLOP) is here defined as one addition, subtraction, 
 - ★ By how much will the best score on the MMLU increase between 2023 and end of 2027? 
 
 - ★★★ (FT) 2025/2030/2035 Penn Machine Learning benchmarks database halvings of compute.
-  - Question details: Consider all the benchmarks in the Penn Machine Learning benchmarks database (https://epistasislab.github.io/pmlb/). Consider the estimated compute needed to achive state-of-the-art performance in April 2023, C1. Consider the estimated compute needed to achieve that same performance, which may no longer be state-of-the-art, in April 2025/2030/2035, C2. Define the number of halvings for a specific benchmark as log2(C1/C2). Now consider the average of log2(C1/C2) for all benchmarks. This question resolves as the [resolution council]'s best estimate for that average in 2025/2030/2035.
+  - Question details: Consider all the benchmarks in the Penn Machine Learning benchmarks database (https://epistasislab.github.io/pmlb/). Consider the estimated compute needed to achieve state-of-the-art performance in April 2023, C1. Consider the estimated compute needed to achieve that same performance, which may no longer be state-of-the-art, in April 2025/2030/2035, C2. Define the number of halvings for a specific benchmark as log2(C1/C2). Now consider the average of log2(C1/C2) for all benchmarks. This question resolves as the [resolution council]'s best estimate for that average in 2025/2030/2035.
 
-- ★★★ (FE, UF) How much money will be spent worldvide training AIs in the average year between 2024 to 2040, as a multiple of the amount spent in 2023? Question resolves according to the [resolution council]'s best estimate in 2040.
+- ★★★ (FE, UF) How much money will be spent worldwide training AIs in the average year between 2024 to 2040, as a multiple of the amount spent in 2023? Question resolves according to the [resolution council]'s best estimate in 2040.
 
 - ★★ In what year will the first high quality AI written scientific textbook be published/released for free online? 
 
@@ -147,13 +147,13 @@ A floating point operation (FLOP) is here defined as one addition, subtraction, 
 
 - ★★ How much higher/lower is the risk of AI takeover by 2123 if we reach AI able to automate all cognitive (i.e. not requiring a body) labour by 2040 compared to by 2065?
 
-- ★★★ (UF) How much money will the US government cummulatively spend on training AI models between 2024 and 2040, as estimated by the [resolution council]? 
+- ★★★ (UF) How much money will the US government cumulatively spend on training AI models between 2024 and 2040, as estimated by the [resolution council]? 
 
 - ★ How many $s in total will [TSMC](https://en.wikipedia.org/wiki/TSMC), [ASML](https://en.wikipedia.org/wiki/ASML_Holding), NVIDIA (https://en.wikipedia.org/wiki/Nvidia) and [SMIC](https://en.wikipedia.org/wiki/Semiconductor_Manufacturing_International_Corporation) spend on R&D between 2024 and 2030? 
 
 - ★ What fraction of [Gross World Product](https://en.wikipedia.org/wiki/Gross_world_product) will the semiconductor industry be responsible for in 2025/2030/2035? 
 
-- ★★★ (RP, UF) How much money will the Chinese government cummulatively spend on training AI models between 2024 and 2040, as estimated by the [resolution council]? 
+- ★★★ (RP, UF) How much money will the Chinese government cumulatively spend on training AI models between 2024 and 2040, as estimated by the [resolution council]? 
   - Question details: Resolution is made difficult because a) China has a mixed communist/capitalist regime, b) China will probably not tell you directly. It is left to the resolution council to make judgment calls about this and give their best guess estimate of this number, according to their best good faith effort to estimate it.
 
 - ★ When will Google release a model that outperforms GPT-4 on the MMLU benchmark? (https://paperswithcode.com/sota/multi-task-language-understanding-on-mmlu). 
@@ -174,7 +174,7 @@ A floating point operation (FLOP) is here defined as one addition, subtraction, 
 - ★ How many frames of a game will the leading system need to solve the Arcade Learning Environment in 2023, 2024, 2027?[^9]
 
 - ★★★ (UF) How much risk of extinction/permanent takeover by AI comes from the first training run of 10/100/1000/10k/100k the size of that used to train GPT-4? 
-  - Question resolution details: This is more of a modelling question, and thus might be more suitable for setups in which scoring isn't used. A resolution council could also resolve this question, though that feels like it defeats the point a bit, since the resolution council wouldn't necessarily have more information than other forecasters.
+  - Question resolution details: This is more of a modeling question, and thus might be more suitable for setups in which scoring isn't used. A resolution council could also resolve this question, though that feels like it defeats the point a bit, since the resolution council wouldn't necessarily have more information than other forecasters.
 
 - ★★★ (UF) How likely is the first model trained with 10/100/1000/10k/100k of GPT4's compute to send out unauthorized copies of itself across the internet?
   - Two possible question operationalization options:
@@ -215,7 +215,7 @@ A floating point operation (FLOP) is here defined as one addition, subtraction, 
 
 - ★★ By end of 2025/2030/2035 how large will the largest model yet trained be? 
 
-- ★ By what year, if ever, will an AI solve one of the 6 remaining [Millenium Prize](https://en.wikipedia.org/wiki/Millennium_Prize_Problems) problems?
+- ★ By what year, if ever, will an AI solve one of the 6 remaining [Millennium Prize](https://en.wikipedia.org/wiki/Millennium_Prize_Problems) problems?
 
 - ★★ How many dollars will be spent on machine learning training runs worldwide by 2025/2030/2035? 
 
@@ -256,7 +256,7 @@ A floating point operation (FLOP) is here defined as one addition, subtraction, 
 
 - ★ In what year will progress on these benchmarks first by 5 times as fast as it was in 2022?: https://genomebiology.biomedcentral.com/articles/10.1186/s13059-014-0462-7/tables/1
 
-- ★ By what year will an AI first beat a human at a boardgame that neither the human nor the AI have ever played before? 
+- ★ By what year will an AI first beat a human at a board game that neither the human nor the AI have ever played before? 
 
 - ★★ Downstream of Metaculus AI Questions 1: How much time will pass between the training of the first system able to positively resolve this Metaculus question, and our having the capacity to automate 50% of labour?
   - [Metaculus question](https://www.metaculus.com/questions/3479/date-weakly-general-ai-is-publicly-known/)
@@ -312,7 +312,7 @@ A floating point operation (FLOP) is here defined as one addition, subtraction, 
 - ★ By what year will a single model first be capable of achieving 1) over 86% top-1 accuracy on ImageNet (https://paperswithcode.com/sota/image-classification-on-imagenet)  2) >.465 Test mAP on the Audioset benchmark (https://paperswithcode.com/sota/audio-classification-on-audioset), 3) over 67% success on the MTEB (https://paperswithcode.com/sota/text-classification-on-mteb). 
 
 - ★★★ (FT) When will adversarial robustness on RobustBench (https://robustbench.github.io/) reach 95%?
-  - Question details: Resolves to when a model that could in fact achieve this is built, not to when an entry appears on the leaderboard. If RobustBench stops being mantained, the question resolves according to the best guess of the [resolution council].
+  - Question details: Resolves to when a model that could in fact achieve this is built, not to when an entry appears on the leaderboard. If RobustBench stops being maintained, the question resolves according to the best guess of the [resolution council].
 
 - ★ By what year (if ever) will a model be commercially available which can fine-tune itself to a natural language prompt (for example "become an English-French translator"), without needing to gather additional data? 
 
@@ -322,7 +322,7 @@ A floating point operation (FLOP) is here defined as one addition, subtraction, 
 
 - ★★ What will be the mean annual growth rate in  the size of the market for AI legal services (for example, models reviewing contracts) between 2024 and 2032? 
 
-- ★ Automation: when will the first company close >95% of its call centres because they can be replaced by AI? 
+- ★ Automation: when will the first company close >95% of its call centers because they can be replaced by AI? 
 
 - ★★ What will be the rate at which computations per joule of energy dissipated doubles between 2024-2028/2029-2033/2033-2045?[^13]. 
 
@@ -348,7 +348,7 @@ A floating point operation (FLOP) is here defined as one addition, subtraction, 
 - ★★ On what % of benchmarks within the BIG-bench set[^14] will the maximum possible score have been achieved by 2025/2030/2035/2040? 
 
 - ★ By (2027/2031/2040), will [GPUs](https://en.wikipedia.org/wiki/Graphics_processing_unit) be replaced by a new kind of chip specially designed for machine learning, as the standard chips used for training? 
-  - Comment: not that relevant, you already have TPUs and Nvidia probably works with MSFT/OAI and such to optimize their product line for transformers—e.g., that's why they push for higher memory bandwidth.
+  - Comment: not that relevant, you already have TPUs and NVIDIA probably works with MSFT/OpenAI and such to optimize their product line for transformers—e.g., that's why they push for higher memory bandwidth.
 
 - ★ What will be the % decline worldwide in job openings for translators by 2026/2029 relative to 2022 baseline. (Relevance: translators likely to be replaced by machine translation.) 
 
@@ -377,7 +377,7 @@ A floating point operation (FLOP) is here defined as one addition, subtraction, 
 
 - ★★ How many times will the number of AI publications on ArXiv double by 2026/2030? 
 
-- ★ What will be the value in 2022 $s of the market for Telerobots in 2026/2030/2035/2045? (https://en.wikipedia.org/wiki/Telerobotics). 
+- ★ What will be the value in 2022 $s of the market for tele-robots in 2026/2030/2035/2045? (https://en.wikipedia.org/wiki/Telerobotics). 
 
 - ★ What will be the growth rate of the market for trading bots in 2025/2027/2030? 
   - Ref: [Automated trading system](https://en.wikipedia.org/wiki/Automated_trading_system). 
@@ -402,13 +402,13 @@ A floating point operation (FLOP) is here defined as one addition, subtraction, 
 - ★ When will 2nm semiconductors first be produced commercially? (https://en.wikipedia.org/wiki/2_nm_process). 
 
 - ★★★ (FE) Currently, how many working semiconductor chips are there worldwide? 
-  - Relevance: Not that high, but a neat Fermi estimate warmup. Might just generally be good for having good models of the world, though.
+  - Relevance: Not that high, but a neat Fermi estimate warm up. Might just generally be good for having good models of the world, though.
 
 - ★★★ (FE) Currently, how many working [GPUs](https://en.wikipedia.org/wiki/Graphics_processing_unit) are there worldwide?
-  - Relevance: Not that high, but a neat Fermi estimate warmup. Might just generally be good for having good models of the world, though.
+  - Relevance: Not that high, but a neat Fermi estimate warm up. Might just generally be good for having good models of the world, though.
 
 - ★★★ (FE, RP) How long does it take [TSMC](https://en.wikipedia.org/wiki/TSMC) to manufacture 100k GPUs? 
-  - Relevance: Not that high, but a neat Fermi estimate warmup. Might just generally be good for having good models of the world, though.
+  - Relevance: Not that high, but a neat Fermi estimate warm up. Might just generally be good for having good models of the world, though.
 
 - ★ How long did GPT-4 take to train? 
 
@@ -485,7 +485,7 @@ A floating point operation (FLOP) is here defined as one addition, subtraction, 
 
 - ★★ What year will the first commercially available corporate strategy planning programme be released?
 
-- ★ When will such strategy programmes be in use at least 10% of companies in the US/UK/China? (Note: these programs don't have to be sold as strategy producers, but just used to produce strategies at >10% of companies in practice.) 
+- ★ When will such strategy programs be in use at least 10% of companies in the US/UK/China? (Note: these programs don't have to be sold as strategy producers, but just used to produce strategies at >10% of companies in practice.) 
 
 - ★★ By what year will it first be the case that 30% of labs at US universities make use of AI to propose theories and design experiments to test those theories at least once a year, as estimated by a [resolution council]?
 
@@ -498,7 +498,7 @@ Note: these questions make extensive use of [this alignment overview](https://ww
 #### [Interpretability](https://www.lesswrong.com/s/FN5Gj4JM6Xr7F4vts/p/SQ9cZtfrzDJmw9A2m#Robustly_good_approaches) 
 
 - ★★★ (FT) Any large AIs successfully predicted to misbehave only from interpretability-based methods by [2025/2030/2050]?
-  - Question details: Consider models which cost > $10M of inflation-adjusted 2023 money to train, as estimated by the [resolution council]. This question resolves positively if there is some interpretability method can systematically predict whether such an AI model misbehaves. An "interpretability method" is left underdefined, and up to the resolution council to interpret, but would involve things like inspecting the model's neurons and activations, rather than things like e.g., "running the model and seeing what it does".
+  - Question details: Consider models which cost > $10M of inflation-adjusted 2023 money to train, as estimated by the [resolution council]. This question resolves positively if there is some interpretability method can systematically predict whether such an AI model misbehaves. An "interpretability method" is left under-defined, and up to the resolution council to interpret, but would involve things like inspecting the model's neurons and activations, rather than things like e.g., "running the model and seeing what it does".
 
 - ★★ How much does the chance of the previous question resolving yes for 2040 increase for every $10 million spent on interpretability research? 
 
@@ -510,7 +510,7 @@ Note: these questions make extensive use of [this alignment overview](https://ww
 
 #### [Iterated Distillation and Amplification](<https://www.lesswrong.com/s/FN5Gj4JM6Xr7F4vts/p/SQ9cZtfrzDJmw9A2m#Agendas_to_build_safe_AGI>):  
 
-- ★ What is % chance by 2030 that some lab will have made a commercially viable model, by repeating the following steps several times: a) making a simple programme to do X, b) having humans use it for X-ing, and c) training a better model, by having it imitate the decisions at point b)? 
+- ★ What is % chance by 2030 that some lab will have made a commercially viable model, by repeating the following steps several times: a) making a simple program to do X, b) having humans use it for X-ing, and c) training a better model, by having it imitate the decisions at point b)? 
 
 - ★ How much does the chance of the previous question resolving yes increase for every $10 million spent on research within the iterated distillation and amplification paradigm? 
 
@@ -561,7 +561,7 @@ Note: these questions make extensive use of [this alignment overview](https://ww
   - Question resolves according to the [resolution council]'s best estimate. It will probably track future analogues of this [AI Impacts](https://aiimpacts.org/2022-expert-survey-on-progress-in-ai/) survey.
 
 - ★★★ (FT) At the end of the first year for which AI companies' revenues amount to 0.2%/2%/20% of US GDP, what % of alignment researchers will consider alignment to be solved?
-  - Question details: For reference, as of early September 2023, Alphabet + MSFT + META + NVIDIA = 282.836B + 211.915B + 116.609B + 26.974B = 638B. US GPD is 23.32T, so these companies currently add up to 3%.
+  - Question details: For reference, as of early September 2023, Alphabet + MSFT + META + NVIDIA = 282.836B + 211.915B + 116.609B + 26.974B = 638B. US GDP is 23.32T, so these companies currently add up to 3%.
 
 - ★★ The previous two questions, but for the more specific notion of "intent alignment" rather than the vaguer notion of "alignment" 
   - "Intent alignment" = alignment in [this sense](https://ai-alignment.com/clarifying-ai-alignment-cec47cd69dd6). 
@@ -634,7 +634,7 @@ Note: these questions make extensive use of [this alignment overview](https://ww
 
 - ★ By 2030/2035/2040, will all nuclear states other than Israeli and North Korea have made it explicit policy that no AI will ever have the authority to launch a nuclear weapon? 
 
-- ★★ If an effective altruist organisation spent $70 million on setting up a body to advise leading labs on safety issues around the training and deployment of models, how many times would leading labs consult that body by 2045? 
+- ★★ If an effective altruist organization spent $70 million on setting up a body to advise leading labs on safety issues around the training and deployment of models, how many times would leading labs consult that body by 2045? 
 
 - ★★★ (UF, FE) How much will governments worldwide spend on alignment research by 2027/2032/2037/2050? 
   - Resolves to the best estimate by [resolution council]. 
@@ -659,7 +659,7 @@ Note: these questions make extensive use of [this alignment overview](https://ww
 - ★★★ (UF) By 2030/2035/2040, will at least one promising alignment idea have been invented by an AI?
   - Resolves according to the judgment of the [resolution council], or according to a high-quality survey of alignment researchers on this topic if one such exists.
 
-- ★★ How much funding for alignment research will self-avowedly effective altruist organisations give out in 2025 / 30 / 35 / 40 / 45? 
+- ★★ How much funding for alignment research will self-avowedly effective altruist organizations give out in 2025 / 30 / 35 / 40 / 45? 
 
 - ★★ In 2027 what % of a randomly selected set of papers which claim they are about "alignment" will a panel of researchers doing technical work on AI takeover risk judge are actually relevant to AI takeover risk? 
 
@@ -667,12 +667,12 @@ Note: these questions make extensive use of [this alignment overview](https://ww
 
 - ★★ Suppose an AI far more intelligent than any human has a final goal of obtaining the highest reward it can, and pursues this goal through manually editing some number representing its reward to make it as high as possible ( see [wireheading](https://www.lesswrong.com/posts/vXzM5L6njDZSf4Ftk/defining-ai-wireheading#Intuitive_examples)). What is the chance that AI does NOT form the intention to seize resources or otherwise take steps to prevent humans changing the reward number or deactivating the AI?
 
-- ★★★ (UF, DG) By 2025/2028/2037 how many papers will have been written by researchers at Chinese organisations which Western alignment researchers rate as 9/10 or 10/10 contribution to alignment/safety research? 
+- ★★★ (UF, DG) By 2025/2028/2037 how many papers will have been written by researchers at Chinese organizations which Western alignment researchers rate as 9/10 or 10/10 contribution to alignment/safety research? 
   - Question resolution details: Imagine a survey of Western alignment researchers, where they are blinded to who did the research. Resolves to the best estimate by [resolution council] of what such a survey would output.
 
 - ★ When will an AI get 65/85/100% on the Truthful QA benchmark? 
 
-- ★ By 2026/2030/2037 will there exist a dataset of examples designed to test how models generalise from the training distribution, such that >50% of alignment researchers believe that administering it to a model powerful enough to be worthy worrying about as a takeover threat will significantly reduce takeover risk from that model? 
+- ★ By 2026/2030/2037 will there exist a dataset of examples designed to test how models generalize from the training distribution, such that >50% of alignment researchers believe that administering it to a model powerful enough to be worthy worrying about as a takeover threat will significantly reduce takeover risk from that model? 
 
 - ★★★ (UF) In 2026/2028/2033/2040 what fraction of researchers at leading labs will work on safety v. capabilities? 
   - Inspired by: https://arxiv.org/pdf/2305.07153.pdf
@@ -680,7 +680,7 @@ Note: these questions make extensive use of [this alignment overview](https://ww
 
 - ★★ By 2028/2033/2040 will interpretability techniques be used to demonstrate to the satisfaction of >70% of a panel of machine learning researchers and philosophers of mind that a particular model routinely engages in explicit reasoning where it assigns values to outcomes, and probabilities of outcomes to actions, and then picks the action with highest expected utility? 
   - Relevance: expected utility maximizers are potentially especially dangerous from a take-over point of view, because of convergent instrumental goals.
-  - Note that this question doesn't capture the cases where a model *approximates* or converges to some notion of expected utility, in some domain, de facto rather than explictly. So this question doesn't capture a large of the danger of expected utility maximization.
+  - Note that this question doesn't capture the cases where a model *approximates* or converges to some notion of expected utility, in some domain, de facto rather than explicitly. So this question doesn't capture a large of the danger of expected utility maximization.
 
 - ★ Ajeya Cotra has [described](<https://www.lesswrong.com/posts/pRkFkzwKZ2zfa3R6H/without-specific-countermeasures-the-easiest-path-to#What_would_change_my_mind_about_the_path_of_least_resistance_>) a certain complicated sort of demonstration which would reduce how likely she thinks deceptive alignment[^15] is. Will this happen by 2025/2030/2040? 
 
@@ -728,7 +728,7 @@ Note: these questions make extensive use of [this alignment overview](https://ww
 
 - ★★ The previous-but-one question without "for takeover risk reasons"
 
-- ★★ Chance that an EA org could create an auditing organisation that met the resolution criteria in the previous-but-one question, if they spent $50 million trying? 
+- ★★ Chance that an EA org could create an auditing organization that met the resolution criteria in the previous-but-one question, if they spent $50 million trying? 
 
 - ★ If auditing is voluntary and done by a private org, how much does being audited cost in USD? 
 
@@ -748,13 +748,13 @@ Note: these questions make extensive use of [this alignment overview](https://ww
 
 - ★★★ (FT) Will the US gov/Chinese gov/EU regularly audit AI labs, for any reason by 2028/2032/2036/2040/2044? 
 
-- ★★★ (FT) Will there be a private organisation which audits AI labs to assess the risk posed by advanced power-seeking models which at least 50% of leading non-Chinese labs have agreed to grant access to by 2027/2033/2040?
+- ★★★ (FT) Will there be a private organization which audits AI labs to assess the risk posed by advanced power-seeking models which at least 50% of leading non-Chinese labs have agreed to grant access to by 2027/2033/2040?
 
 - ★★★ (FT) If the US government institutes a compute cap in 2025, how many OOMs does the US fall behind China by 2030?
   - Question details:
     - Condition on the [US government setting up a compute cap on AI training runs in 2025. Then, consider 5 years later, in 2030. The largest US model is at X1 OOMs, and the largest Chinese model is at Y1 OOMs. Then the difference is Δ1 = X1 - Y1
     - The consider the world in which the US doesn't set up a compute cap in 2025, and still doesn't by 2030. Then by 2030, the largest US model is at X2 OOMs, and the largest Chinese model is at Y2 OOMs. Then the difference is Δ2 = X2 - Y2
-    - This question resolves to Δ1 - Δ2 = (X1 - Y1) - (X2 - Y2) , or (Y2 - Y1) - (X2 - X1), as estimated by the [resoltion council] on [date]. 
+    - This question resolves to Δ1 - Δ2 = (X1 - Y1) - (X2 - Y2) , or (Y2 - Y1) - (X2 - X1), as estimated by the [resolution council] on [date]. 
     - So it's asking how much lead the US looses by implementing this measure. Note that this number can be negative.
   - Note: This feels more meaningful as an estimation exercise than as a forecasting question.
 
@@ -769,11 +769,11 @@ Note: these questions make extensive use of [this alignment overview](https://ww
 
 - ★★★ (FT) Will the [EU AI Act](https://artificialintelligenceact.eu/) contain language subjecting general purpose AI systems to some of the same regulations as systems classified as high risk?
 
-- ★★ By 2025/2028/2033/, will there be an organisation set up for employees of AI labs to whistleblow to, if they think their lab is carrying out dangerous research? 
+- ★★ By 2025/2028/2033/, will there be an organization set up for employees of AI labs to whistleblow to, if they think their lab is carrying out dangerous research? 
 
 - ★★ If an org for whistleblower is set up by 2028, how many times will it have been contacted by (alleged) whistleblowers in labs by 2040? 
 
-- ★ By 2028, will the US government set up an organisation for employees of AI labs to whistleblow to, if they think their lab is carrying out dangerous research?
+- ★ By 2028, will the US government set up an organization for employees of AI labs to whistleblow to, if they think their lab is carrying out dangerous research?
 
 - ★ The previous question but for the EU. 
 
@@ -786,7 +786,7 @@ Note: these questions make extensive use of [this alignment overview](https://ww
 
 - ★ What's the expected increase in the answer to the previous question, per $1 million spent lobbying labs to publish such proposals? 
 
-- ★★★ (UF) How many AI labs will have allowed the Alignment Research Centre evaluation project to examine one of their models pre-commerical release by Jan 2026? 
+- ★★★ (UF) How many AI labs will have allowed the Alignment Research Centre evaluation project to examine one of their models pre-commercial release by Jan 2026? 
   - On ARC, see [here](https://www.lesswrong.com/posts/svhQMdsefdYFDq5YM/evaluations-project-arc-is-hiring-a-researcher-and-a-webdev-1)
 
 - ★★★ (FT) How many AI labs will publicly be known to have allowed the Alignment Research Centre evaluation project to examine one of their models pre-commercial release by Jan 2026? 
@@ -796,9 +796,9 @@ Note: these questions make extensive use of [this alignment overview](https://ww
 
 - ★★ In 2026/2030/2040 what % of leading labs will agree to a) test models for the capacity to replicate across the internet, and b) not deploying any model which has this capacity? 
 
-- ★★★ (UF) By 2025/2028/2033/2040 will there be de-facto agreement amongst all US leading labs to avoid training runs over a certain size?  
+- ★★★ (UF) By 2025/2028/2033/2040 will there be de-facto agreement among all US leading labs to avoid training runs over a certain size?  
 
-- ★★★ (FT) By 2025/2028/2033/2040 will there be a public agreement amongst all US leading labs to avoid training runs over a certain size?  
+- ★★★ (FT) By 2025/2028/2033/2040 will there be a public agreement among all US leading labs to avoid training runs over a certain size?  
 
 - ★★ How much does the chance that the previous question will resolve yes by 2033 increase for every $10 million spent lobbying labs to do this? 
 
@@ -872,7 +872,7 @@ Note: these questions make extensive use of [this alignment overview](https://ww
 
 - ★ How much does risk of AI takeover by 2100 fall per $10 million the US government spends on monitoring AI progress?
 
-- ★★ By 2025/2030/2035/2040/2050 will there be a private US standards setting organisation (https://forum.effectivealtruism.org/posts/zvbGXCxc5jBowCuNX/how-technical-safety-standards-could-promote-tai-safety) designed partly to guard against takeover/existential risk from AI to which a majority of US leadings labs are signed up? 
+- ★★ By 2025/2030/2035/2040/2050 will there be a private US standards setting organization (https://forum.effectivealtruism.org/posts/zvbGXCxc5jBowCuNX/how-technical-safety-standards-could-promote-tai-safety) designed partly to guard against takeover/existential risk from AI to which a majority of US leading labs are signed up? 
 
 - ★★ How much would the formation, by end of 2026 of a standard setting organization of the kind described in the previous question, reduce AI takeover risk by 2100? 
 
@@ -880,7 +880,7 @@ Note: these questions make extensive use of [this alignment overview](https://ww
 
 - ★ By 2040, will the Institute of Electrical and Electronics Engineers add provisions designed to help prevent the building of highly intelligent power-seeking systems to its list of standards for "autonomous and intelligent systems"? 
 
-- ★★ If an EA org were to spend $200 million on a project designed to investigate which standard-setting orgs were likely to be heavily involved in AI regulation, and attempt to influence their standards in a way which reduces X-risk from AI, how much would that reduce the risk of AI takeover by 2100? 
+- ★★ If an EA org were to spend $200 million on a project designed to investigate which standard-setting organizations were likely to be heavily involved in AI regulation, and attempt to influence their standards in a way which reduces X-risk from AI, how much would that reduce the risk of AI takeover by 2100? 
 
 - ★★★ (FT) By 2025/2030/2035 how many and what proportion of leading labs will have published documents specifically stating circumstances in which they'd pause training runs for safety reasons?
   - Note: Covers both the case where they stop an ongoing run, and the case where they refrain from starting runs
@@ -909,14 +909,14 @@ Note: these questions make extensive use of [this alignment overview](https://ww
 
 - ★★★ (UF, FE, RP) Consider the first AI model able to individually perform any cognitive labour that a human can. Then, how likely is the chance of an deliberately engineered pandemic which kills >20% of the world's population in the 50 years after the first such model is built?
 
-- ★★★ (UF, FE, RP) How does the probability of the previous question change if models are widely available to citizens and private businesses, compared to if only government and specified trusted private organisations are allowed to use them? 
+- ★★★ (UF, FE, RP) How does the probability of the previous question change if models are widely available to citizens and private businesses, compared to if only government and specified trusted private organizations are allowed to use them? 
 
-- ★★ If AI models able to individually perform any cognitive labour a human are produced, and in the US, a law is passed saying only the government and specified trusted private orgs can access them, how much lower/higher is the risk of a US government official attempting an AI-faciliated coup, relative to a scenario where the models are freely commercially available? 
+- ★★ If AI models able to individually perform any cognitive labour a human are produced, and in the US, a law is passed saying only the government and specified trusted private organizations can access them, how much lower/higher is the risk of a US government official attempting an AI-facilitated coup, relative to a scenario where the models are freely commercially available? 
   - Question detail: Give the risk level for the first 50 years after the models are available in the US.
 
 - ★★ Will the US/EU/China produce a policy designed to ban the publication of dangerous AI research by 2028/2035/2040? 
 
-- ★ How much does the chance the US/EU implements such a policy by 2035 increase for every $15 million spent building support for such a policy amongst AI experts? 
+- ★ How much does the chance the US/EU implements such a policy by 2035 increase for every $15 million spent building support for such a policy among AI experts? 
 
 - ★ How much does the chance the US/EU implements such a policy by 2035 increase for every $15 million spent lobbying the US gov/EU to implement it? 
 
@@ -938,14 +938,14 @@ Note: these questions make extensive use of [this alignment overview](https://ww
 - ★★ By 2025/2030/2040 what % of employees of the US federal civil service earning over $100k a year will agree with the statement "takeover by AI is a serious concern"? 
 
 - ★ In 2026/2032/2035/2040 how many leading labs will be US public benefit corporations? 
-  - Reference: [Public Benefit Corportation](https://www.delawareinc.com/public-benefit-corporation/?ref=cold-takes.com). 
+  - Reference: [Public Benefit Corporation](https://www.delawareinc.com/public-benefit-corporation/?ref=cold-takes.com). 
 
 - ★ By 2028/2033/2040/2050 will any US lab approach the US government to notify them that they are now able to build dangerously capable models, and need government advice on what to do? 
 
 - ★ Will anyone directly appointed to their job by the President of the United States attend a conference on "AI governance" by 2030? 
   - Question note: Anyone directly appointed to their job who is still holding that job, not e.g., someone who has since left government, or from a previous administration.
 
-- ★★ If an EA organisation were to spend $60 million on establishing a credible institute for AI governance, how many times by 2045 would a policy be counterfactually adopted because the institute advocated for it? 
+- ★★ If an EA organization were to spend $60 million on establishing a credible institute for AI governance, how many times by 2045 would a policy be counterfactually adopted because the institute advocated for it? 
 
 - ★★ How many AI-related bills will be passed and signed into law in the US by 2026/2030/2034/2040? 
 
@@ -959,7 +959,7 @@ Note: these questions make extensive use of [this alignment overview](https://ww
 - ★★★ (FT) Integrated AI safety chip checks by 2027/2030/2035/2040? 
   - Question details: By 2027/2030/2035/2040 will there be some method that will log whether chips are complying with some AI safety rules, such that this method cannot be disabled even by determined state actors without the chip ceasing to function? 
   - This question would resolve positively regardless of the effectiveness of the AI safety rules such methods would enforce. Ambiguities on whether something would be an "AI safety rule" would be resolved by the [resolution council]
-  - We imagine that such a method would involve firmware, but if this is done at the driver or userspace level, that would also resolve this question.
+  - We imagine that such a method would involve firmware, but if this is done at the driver or user-space level, that would also resolve this question.
   - See [this paper](https://arxiv.org/pdf/2303.11341.pdf) for more details.
 
 - ★★★ (FT) Will integrated AI safety chip checks as described in the previous question actually be be required by laws or regulations in the US/EU/China/Japan/South Korea/Taiwan by 2029/2033/2038/2044? 
@@ -967,24 +967,24 @@ Note: these questions make extensive use of [this alignment overview](https://ww
 
 - ★★★ (FT) Will any international treaty around AI signed between the US and China require the use integrated AI safety chip checks, as described in the question before last?
 
-- ★ By 2026/2028/2032 how many/what proportion of leading labs—or their controlling orgs—outside China, will have the Three Lines of Defence risk management model? 
+- ★ By 2026/2028/2032 how many/what proportion of leading labs—or their controlling organizations—outside China, will have the Three Lines of Defence risk management model? 
   - See [pp.3-4 of [this paper](https://arxiv.org/ftp/arxiv/papers/2212/2212.08364.pdf) for a description of the model and evidence it is popular in other industries. 
 
 - ★★ Currently/2025/2028/2033, what fraction of board members of Alphabet/Facebook would agree that there is an >1/5/10/20% risk of AI takeover by 2060/2080/2100? 
 
 - ★ How much more likely do researchers at leading labs become to support their lab deliberately going slower for safety reasons, if they add 10 to the number they give for what % of researchers and board members at rival leading labs over the next 20 years will sincerely endorse slowing down for safety reasons? (That is, genuine move from believing the x% of researchers and board members believing in slowing to thinking x★10% do). 
 
-- ★ How much more likely do board members at orgs controlling leading labs become to support their lab deliberately going slower for safety reasons, if they add 10 to the number they give for what % of researchers and board members at rival leading labs over the next 20 years will sincerely endorse slowing down for safety reasons? (That is, genuine move from believing the x% of researchers and board members believing in slowing to thinking x★10% do). 
+- ★ How much more likely do board members at organizations controlling leading labs become to support their lab deliberately going slower for safety reasons, if they add 10 to the number they give for what % of researchers and board members at rival leading labs over the next 20 years will sincerely endorse slowing down for safety reasons? (That is, genuine move from believing the x% of researchers and board members believing in slowing to thinking x★10% do). 
 
 - ★★★ (UF) Red-teaming: Between 2024 and 2040, what proportion of training runs at least 50x larger than that used to train GPT-4 will be red-teamed before they're started?
    - See p.14 of: https://arxiv.org/pdf/2004.07213.pdf#page=5
    - Question resolves to the best distributional guess over such proportions by the [resolution council].
 
-- ★ By 2025/2028/2033 will there be an organisation in the US that specialises in red-teaming for AI labs, and employs at least 20 people? 
+- ★ By 2025/2028/2033 will there be an organization in the US that specializes in red-teaming for AI labs, and employs at least 20 people? 
 
-- ★ By 2027/2032/2037 how many organisations specialising in AI red-teaming will there be in the United States? 
+- ★ By 2027/2032/2037 how many organizations specializing in AI red-teaming will there be in the United States? 
 
-- ★ How much would the answer to the previous question increase if Open Phil. spent $25 million trying to get such organisations set up? 
+- ★ How much would the answer to the previous question increase if Open Phil. spent $25 million trying to get such organizations set up? 
 
 - ★ In 2025/2028/2033/2040 what % of leading labs will red-team their information security? 
 
@@ -1035,7 +1035,7 @@ Note: these questions make extensive use of [this alignment overview](https://ww
 
 - ★★ AI Governance survey 12: What is the chance by 2026/2031/2036 that the US/EU/China/South Korea/Japan/Canada legally requires the type of risk assessment mentioned in the previous question? 
 
-- ★★★ (FT) AI Governance survey 13: In 2025/2030/2035 what proportion of leading labs will have an official emergency response procedure, to be implemented if they suddenly realise that one of their models is dangerous? 
+- ★★★ (FT) AI Governance survey 13: In 2025/2030/2035 what proportion of leading labs will have an official emergency response procedure, to be implemented if they suddenly realize that one of their models is dangerous? 
 
 - ★★ AI Governance survey 14: What is the chance by 2026/2031/2036 that the US/EU/China/South Korea/Japan/Canada legally requires the type of emergency response plan mentioned in the previous question? 
 
@@ -1064,7 +1064,7 @@ Note: these questions make extensive use of [this alignment overview](https://ww
 
 - ★★★ AI Governance survey 26: By 2025/2030/2035, what proportion of leading labs will have published a statement on 'how they make high-stakes decisions regarding model development and deployment'. (Quote from p.19 of https://arxiv.org/pdf/2305.07153.pdf). 
 
-- ★★★ AI Governance survey 27: By 2025/2030/2035, what proportion of leading labs will conduct [know-your-customer]((https://www.dowjones.com/professional/risk/glossary/know-your-customer/) screenings of organisations asking to access their most powerful AI models? 
+- ★★★ AI Governance survey 27: By 2025/2030/2035, what proportion of leading labs will conduct [know-your-customer]((https://www.dowjones.com/professional/risk/glossary/know-your-customer/) screenings of organizations asking to access their most powerful AI models? 
 
 - ★★ AI Governance survey 28: By 2025/2030/2035 what proportion of leading labs will 'perform rigorous background checks before hiring/appointing members of the board of directors, senior executives, and key employees.' (Quote from p.19 of https://arxiv.org/pdf/2305.07153.pdf).
 
@@ -1135,12 +1135,12 @@ Note: these questions make extensive use of [this alignment overview](https://ww
 - ★ AI Governance survey 58: In 2025/2030/2035 what proportion of leading labs will have a policy of measuring how much their internal culture values criticism? 
 
 - ★ AI Governance survey 59: In 2025/2030/2035 what proportion of leading labs will have a person responsible for making their hiring more inclusive and increasing the diversity of their work-force? 
-  - Note: Interesting forecasting question + correlates with politization of AI. But also feels a bit distracting.
+  - Note: Interesting forecasting question + correlates with politicization of AI. But also feels a bit distracting.
 
 - ★★★ (FT) AI Governance survey 60: In 2025/2030/2035 what proportion of leading labs will have 'independent safety and ethics advisory boards'? 
   - Reference: see p.21 [here](https://arxiv.org/pdf/2305.07153.pdf).
 
-- ★ AI Governance survey 61: By 2025/2030/2035 what proportion of non-Chinese leading labs will 'report to an international non-governmental organisation (INGO) that is publicly committed to human rights and democratic values.'? (quotation from p.22: https://arxiv.org/pdf/2305.07153.pdf)
+- ★ AI Governance survey 61: By 2025/2030/2035 what proportion of non-Chinese leading labs will 'report to an international non-governmental organization (INGO) that is publicly committed to human rights and democratic values.'? (quotation from p.22: https://arxiv.org/pdf/2305.07153.pdf)
 
 - ★ AI Governance survey 62: In 2025/2030/2035 what proportion of leading labs will 'have an independent board of directors with technical AI safety expertise who have the mandate to put the benefits for society above profit and shareholder value'? (quotation from p.22: https://arxiv.org/pdf/2305.07153.pdf)
 
@@ -1158,7 +1158,7 @@ Note: these questions make extensive use of [this alignment overview](https://ww
 
 - ★ AI Governance survey 69: The previous question, but what proportion of leading labs outside will agree to the restriction voluntarily.
 
-- ★ AI Governance survey 70: By 2026/2031/2036 what portion of leading labs will have a policy of only allowing access to models via API and also only allowing access to the API to organisations that have passed some kind of pre-use vetting process specified by the lab? 
+- ★ AI Governance survey 70: By 2026/2031/2036 what portion of leading labs will have a policy of only allowing access to models via API and also only allowing access to the API to organizations that have passed some kind of pre-use vetting process specified by the lab? 
 
 - ★ AI Governance survey 71: In 2025/2030/2035 what proportion of leading labs will have a policy of 'ensur[ing] that AI systems in an ensemble communicate in English' so that their communications can be analysed for warning signs of dangerous behaviour? (quotation from p.22 of https://arxiv.org/pdf/2305.07153.pdf).
 
@@ -1241,7 +1241,7 @@ Governments, if so, which ones? small companies or large companies? US or Chines
 
 - ★ By 2035, how many labs will have become a leading lab within 2 years of their founding? 
 
-- ★★ Will the US government nationalise any AI lab by 2035? 
+- ★★ Will the US government nationalize any AI lab by 2035? 
 
 - ★★ By January 2025, what % of top-5 entries on Allen Institute for AI leaderboards will be from Chinese labs? (https://leaderboard.allenai.org/). 
 
@@ -1249,9 +1249,9 @@ Governments, if so, which ones? small companies or large companies? US or Chines
 
 - ★ How much does the risk of AI takeover by 2100 currently rise/fall per $100 million the US government/EU spends on supplying university labs with compute? 
 
-- ★ Will any EU government nationalise an AI lab by 2027/2035?
+- ★ Will any EU government nationalize an AI lab by 2027/2035?
 
-- ★ Will China nationalise an AI lab by 2027/2035? 
+- ★ Will China nationalize an AI lab by 2027/2035? 
 
 - ★★ By 2040 will any entity which is neither a for-profit company (even in the limited capped profit OpenAI sense) nor a government spend at least $10 billion on a training run?
 
@@ -1344,7 +1344,7 @@ Governments, if so, which ones? small companies or large companies? US or Chines
   - Note: "the powers of a world government" is under-operationalized. Some things that it could mean: 
     - give commands to the US and Chinese government, and have them obey? For instance, will there be an episode such as the [Suez Canal Crisis](https://en.wikipedia.org/wiki/Suez_Crisis), in which China and the US are on one side, and the AI lab is on the other side, and the AI lab is able to impose its will?
     - determine large-scale decisions affecting humanity, such as setting immigration policy for large nations, deciding inflation targets, commanding large armies, or deciding how to allocate a large share of human labor?
-    - decide on and pursue large and ambitious goals, such as terraforming the Earth or other planets, erradicating major diseases, or starting novel scientific research programmes?
+    - decide on and pursue large and ambitious goals, such as terraforming the Earth or other planets, eradicating major diseases, or starting novel scientific research programs?
 
 - ★★★ (UF) Condition on the US government being the first to develop transformative AI, and on it subsequently maintaining control of said AI. Then, will the US government effectively be a world government within 30 years?
 
@@ -1356,7 +1356,7 @@ Governments, if so, which ones? small companies or large companies? US or Chines
 
 - ★★ If transformative AI is created by for-profit companies, what % of total worldwide profit will be captured by those companies 7 years later? 
 
-- ★★ How much more likely is democracy to survive in scenarios where the US gov reaches transformative AI first, compared to scenarios where US for-profit companies or other US non-state, non-academic, organisations reach transformative AI first?
+- ★★ How much more likely is democracy to survive in scenarios where the US gov reaches transformative AI first, compared to scenarios where US for-profit companies or other US non-state, non-academic, organizations reach transformative AI first?
 
 - ★★ Rank these scenarios by which has highest AI takeover risk: the US government builds the first significantly-more-intelligent-than-humans AI, a US for-profit company builds the first significantly-more-intelligent-than-humans AI, the Chinese government builds the significantly-more-intelligent-than-humans AI, a Chinese for-profit company builds the first significantly-more-intelligent-than-humans AI?
 
@@ -1394,7 +1394,7 @@ Governments, if so, which ones? small companies or large companies? US or Chines
 ### Questions about how agent-y and general future AIs will be, and how that affects X-risk from AI
 
 - ★★ By 2030/2035/2040, will some companies will employ AI middle-managers.
-  - Note: "AI middle managers" might look different from current middle managers. E.g., maybe you have humans aided by middle managers. Or maybe you have "analytics systems" that people working at McDonalds report to. Thus this question is underoperationalized.
+  - Note: "AI middle managers" might look different from current middle managers. E.g., maybe you have humans aided by middle managers. Or maybe you have "analytics systems" that people working at McDonald's report to. Thus this question is under-operationalized.
 
 - ★ In what year will the first AI personal assistant be sold? 
 
@@ -1414,12 +1414,12 @@ Governments, if so, which ones? small companies or large companies? US or Chines
 - ★★★ (UF) Will there be a point in time where a) over 70% of labour in the US as performed in 2023 has been automated, but b) no one AI model is spending more than 5% of total AI compute?
   - See the "recurring terms" section for an operationalization of automating over 70% of labour.
 
-- ★★★ (UF) In [year], what fraction of US work hours will be spent iteracting with an AI?
+- ★★★ (UF) In [year], what fraction of US work hours will be spent interacting with an AI?
   - Communicating, giving feedback, following orders, giving orders, etc. to AIs.
 
 - ★★ % chance that we will have a superhuman oracle/tool AI before we have superhuman agents [we could refer forecasters to Bostrom's Superintelligence for definitions of these terms.] 
 
-- ★★ By 2028 will all top labs (defined as last training run used an amount of compute within 2 OOM of currently largest ever run) prevent users from turning cutting-edge (say, the labs 2 most recent) LLMs into components of agents, via writing programmes which ask the LLM to write a program to accomplish a task, and then run that program?
+- ★★ By 2028 will all top labs (defined as last training run used an amount of compute within 2 OOM of currently largest ever run) prevent users from turning cutting-edge (say, the labs 2 most recent) LLMs into components of agents, via writing programs which ask the LLM to write a program to accomplish a task, and then run that program?
 
 - ★★ By 2030/2035/2040/2045/2050 will an AI set up purely to be a question answering tool try to steal more resources, or otherwise manipulate the world outside itself, in order to be better answer a question?
 
@@ -1443,7 +1443,7 @@ Based on comments in the Slack at Trajan:
 ### Risks of various kinds from EAs and other people concerned about AI X-risk getting things wrong
 
 - ★★★ (UF, FE) What fraction of upper-management at DeepMind/Open AI/Anthropic secretly agree with Eliezer Yudkowsky's claim that the first lab to reach "AGI" needs to perform a ["pivotal act"](https://forum.effectivealtruism.org/posts/q6t5zKCg5peZA92Zu/pivotal-act-intentions-negative-consequences-and-fallacious#comments) that prevents anyone else building dangerous AGI?
-   - Note: This is bad as a forecasting question, because it's unresolvable, but might be a good modelling exercise.
+   - Note: This is bad as a forecasting question, because it's unresolvable, but might be a good modeling exercise.
 
 - ★★ What % of people in upper-management positions at DeepMind/Open AI/Anthropic believe that getting to a superintelligent AI aligned with your own personal goals first would enable you to "takeover the world", or something along those lines.
 
@@ -1455,7 +1455,7 @@ Based on comments in the Slack at Trajan:
 
 - ★ On average, how much earlier in months does the first agent AI better than humans at all jobs become each time a prominent EA claims that such agents will inevitably be built, compared to the counterfactual where they didn't say that? 
 
-- ★★ How much more money will be invested worldwide in AI by 2030, relative to a scenario in which all EA orgs and prominent EAs just stop talking about or working on AI safety entirely?
+- ★★ How much more money will be invested worldwide in AI by 2030, relative to a scenario in which all EA organizations and prominent EAs just stop talking about or working on AI safety entirely?
 
 - ★★ By 2025/2030/2035, how many labs will have been significantly offended by attempts to evaluate how safe one or more of their models are, and cut off access to the evaluating group in response? 
 
@@ -1525,7 +1525,7 @@ Based on comments in the Slack at Trajan:
 
 - ★★ The previous question, but for public opinion.
 
-- ★★ The previous question, but for opinion amongst US federal government workers.
+- ★★ The previous question, but for opinion among US federal government workers.
 
 - ★★ The previous question, but for researchers at Facebook AI Research (or whatever it's calling itself these days.)
 
@@ -1582,7 +1582,7 @@ Based on comments in the Slack at Trajan:
 
 - ★ Suppose a perfectly representative survey of ML researchers is run tomorrow: what % of respondents will...
   - give one of the 3 'yes' answers to the Stuart Russell's problem question from the AI Impacts survey: https://aiimpacts.org/2022-expert-survey-on-progress-in-ai/
-  - answer 'more' or 'much more' to the 'how much should society prioritise AI safety research' question from the AI Impacts survey (https://aiimpacts.org/2022-expert-survey-on-progress-in-ai/). 
+  - answer 'more' or 'much more' to the 'how much should society prioritize AI safety research' question from the AI Impacts survey (https://aiimpacts.org/2022-expert-survey-on-progress-in-ai/). 
   - answer "moderately" or above to 'how much have you thought about when human-level machine intelligence will be achieved: very little, a little, a moderate amount, a lot, a great deal'? (Question taken from: https://arxiv.org/pdf/1705.08807.pdf). 
 
 - ★★ In 2025/2028/2033 what % of respondents in the US/China/EU/Japan/South Korea would answer yes to 'is there a risk of human extinction from AI' in a well-designed/conduct poll? 
@@ -1603,7 +1603,7 @@ Based on comments in the Slack at Trajan:
 
 - ★ What will be the average salary of someone working on information security at a top lab in 2025/2030/2035/2040? 
 
-- ★★ By 2025/2030/2035/2040 what proportion of top labs will store the weights for their models only on air-gapped systems? 
+- ★★ By 2025/2030/2035/2040 what proportion of top labs will store the weights for their models only on air-gaped systems? 
 
 - ★★ What is the chance that by end of 2024/2026/2030/2040 someone working in a top lab will be discovered to be a spy, looking to steal company secrets? 
 
@@ -1718,7 +1718,7 @@ Based on comments in the Slack at Trajan:
 
 - ★★ By 2026/2030/2036 will at least 2 leading labs collaborate on a project with a budget of at least $8/80/300 million dollars? 
 
-- ★★★ (FT) When will a model trained using 2/4/6 OOMs more compute than GPT-4 be downloadeable by the general public? 
+- ★★★ (FT) When will a model trained using 2/4/6 OOMs more compute than GPT-4 be downloadable by the general public? 
 
 - ★★★ (FT) What will be the estimated size of the largest publicly downloadable model in 2023/2025/2030/2050?
 
@@ -1756,14 +1756,14 @@ Based on comments in the Slack at Trajan:
 
 - ★★ Assuming the question before last resolves yes at some point, at its cheapest in the 20 years after it resolves yes, how expensive will getting the equipment needed to create and release such a pathogen be? 
 
-- ★ Intentional misuse by non-state actors: how many times will proposals to kill >100 million people by assigning a goal to an AI agent be posted on internet forums for extremist ideologies (think: white nationalists who want to commit genocides against other racial or ethnic groups, violent cults like Aum Shinrikyo <https://en.wikipedia.org/wiki/Aum_Shinrikyo> etc.) by 2026/2030/2038? (The 'darkweb' counts as the internet.) 
+- ★ Intentional misuse by non-state actors: how many times will proposals to kill >100 million people by assigning a goal to an AI agent be posted on internet forums for extremist ideologies (think: white nationalists who want to commit genocides against other racial or ethnic groups, violent cults like Aum Shinrikyo <https://en.wikipedia.org/wiki/Aum_Shinrikyo> etc.) by 2026/2030/2038? (The 'dark web' counts as the internet.) 
 
 - ★ Intentional misuse by state actors:  By 2030/2035/2042 will any one of China/Russia/The US have a written military plan detailing how they could use AI to completely destroy one of the other 2 states? 
 
 - ★★★ (UF) Condition on no AI takeover. Then, if >97% of labour is automated in the US by 2100, what will the median US human annual income be 10/20/50 years after reaching >97% automation?
   - Relevance: This is an imperfect proxy for 'AI is aligned to its makers, but things are dystopian because without the bargaining power that comes from their labour being useful, most humans are disempowered and impoverished.
 
-## Acknowledgements
+## Acknowledgments
 
 This list of forecasting questions was produced by David Mathers, Gavin Leech and Misha Yagudin, who did the first 80%, and Nuño Sempere, which completed the second 80%. Open Philanthropy provided funding.
 
@@ -1787,7 +1787,7 @@ This list of forecasting questions was produced by David Mathers, Gavin Leech an
 
 [^10]: https://www.openphilanthropy.org/research/new-web-app-for-calibration-training/) 
 
-[^11]: [I have pasted in this and the following Cotra questions from Gavin's airtable: personally, I can't figure out how to easily find out what the parameters actually are or where they are explained in the report, and I doubt that forecasters would be able to either without a lot of work]. 
+[^11]: [I have pasted in this and the following Cotra questions from Gavin's Airtable: personally, I can't figure out how to easily find out what the parameters actually are or where they are explained in the report, and I doubt that forecasters would be able to either without a lot of work]. 
 
 [^12]: https://paperswithcode.com/sota/image-classification-on-imagenet 
 
