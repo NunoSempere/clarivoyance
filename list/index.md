@@ -1,7 +1,7 @@
-﻿AI safety forecasting questions OpenPhil might find useful
-==========================================================
+﻿AI safety forecasting questions
+===============================
 
-**tl;dr**: This document contains a list of forecasting questions which could be useful to Open Philanthropy in its aim to have accurate models of future AI progress. Many of these questions are more classic forecasting questions, others have the same shape but are unresolvable, still others look more like research projects or like suggestions of data gathering efforts. Below we give some recommendations of what to do with this list, mainly to feed them into forecasting and research pipelines. In a separate document, we outline reasons why using forecasting for discerning the future of AI may prove particularly difficult.
+**tl;dr**: This document contains a list of forecasting questions, commissioned by Open Philanthropy as part of its aim to have more accurate models of future AI progress. Many of these questions are more classic forecasting questions, others have the same shape but are unresolvable, still others look more like research projects or like suggestions of data gathering efforts. Below we give some recommendations of what to do with this list, mainly to feed them into forecasting and research pipelines. In a separate document, we outline reasons why using forecasting for discerning the future of AI may prove particularly difficult.
 
 ## Table of Contents
 
@@ -25,7 +25,7 @@
 
 ## Recommendations
 
-We recommend that Open Philanthropy feed these questions into various forecasting and research pipelines, with the thought of incentivizing the research needed to come up with good models of the world around AI developments.
+We recommended that Open Philanthropy feed these questions into various forecasting and research pipelines, with the thought of incentivizing the research needed to come up with good models of the world around AI developments.
 
 We have categorized questions with three stars in various buckets, each of which has its own recommendations:
 
@@ -1763,6 +1763,10 @@ Based on comments in the Slack at Trajan:
 
 - ★★★ (UF) Condition on no AI takeover. Then, if >97% of labour is automated in the US by 2100, what will the median US human annual income be 10/20/50 years after reaching >97% automation?
   - Relevance: This is an imperfect proxy for 'AI is aligned to its makers, but things are dystopian because without the bargaining power that comes from their labour being useful, most humans are disempowered and impoverished.
+
+## Acknowledgements
+
+This list of forecasting questions was produced by David Mathers, Gavin Leech and Misha Yagudin, who did the first 80%, and Nuño Sempere, which completed the second 80%. Open Philanthropy provided funding.
 
 [^1]: At least absent a very, very large amount of algorithmic progress. 
 
