@@ -1,0 +1,1 @@
+Replace ★ with *

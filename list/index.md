@@ -1,5 +1,4 @@
-﻿AI safety forecasting questions
-===============================
+﻿# AI safety forecasting questions"
 
 **tl;dr**: This document contains a list of forecasting questions, commissioned by Open Philanthropy as part of its aim to have more accurate models of future AI progress. Many of these questions are more classic forecasting questions, others have the same shape but are unresolvable, still others look more like research projects or like suggestions of data gathering efforts. Below we give some recommendations of what to do with this list, mainly to feed them into forecasting and research pipelines. In a [separate document](https://nunosempere.com/blog/2023/11/07/hurdles-forecasting-ai/), we outline reasons why using forecasting for discerning the future of AI may prove particularly difficult.
 
@@ -105,7 +104,7 @@ A floating point operation (FLOP) is here defined as one addition, subtraction, 
 - ★ By 2025, in how much lower/higher a percentile on the SAT will the average entering comp sci major at a US college/university have, relative to 2019? (Relevance: tells us something about whether AI is currently attracting more talented students as the field becomes more hyped, which is probably partly predictive of future capabilities progress, as better researchers means faster progress.) 
 
 - ★★★ (RP, DG) By what year will at least 15% of patents granted in the US be for designs generated primarily via AI? 
-  - Reasons for inclusion: both an early sign that AI might be able to design dangerous technology, ★and★ an indicator that AIs will be economically useful to deploy across diverse industries.
+  - Reasons for inclusion: both an early sign that AI might be able to design dangerous technology, and an indicator that AIs will be economically useful to deploy across diverse industries.
   - Question details: Question resolves according to the best estimate by the [resolution council].
 
 - ★★★ (UF, RP) How long will be the gap between the first creation of an AI which could automate 65% of current labour, and the availability of an equivalently capable model as a free, open-source program? 
@@ -197,7 +196,7 @@ A floating point operation (FLOP) is here defined as one addition, subtraction, 
 - ★★★ (UF, RP) Take-off speed: after automating 15% of labour, how long will it take until 60% of labour is automated? 
   - Question note: 99%+ of labour has been already been automated, since most humans don't work on agriculture any more. This question asks about automating 15% and 60% of labour of the type done in 2023; see "recurring terms".
 
-- ★★ Less resolvable version of previous question: how long will it take to go from it being ★possible★ to automate 10% of labour using AI, to it being possible to automate 60%? 
+- ★★ Less resolvable version of previous question: how long will it take to go from it being possible to automate 10% of labour using AI, to it being possible to automate 60%? 
 
 - ★ By 2028/2033/2040 will any new company focused exclusively or near-exclusively on part of the semiconductor manufacturing chain reach a market capitalization of $1.75 trillion? 
 
@@ -339,7 +338,7 @@ A floating point operation (FLOP) is here defined as one addition, subtraction, 
   - Relevance: lots of people think this resolving 'yes' is a proxy for 'AI won't go from below human intelligence to far, far above human intelligence in a very short space of time', aka "slow takeoff".)
 
 - ★ Chance bitcoin stays below $10k for over 6 months by (2025/2028/2032)? 
-  - Relevance: this would presumably lead to a lot of people working in crypto quitting for other lines of work, which ★might★ lead to a flood of talent in to AI/machine learning, increasing the speed of capabilities progress.
+  - Relevance: this would presumably lead to a lot of people working in crypto quitting for other lines of work, which might lead to a flood of talent in to AI/machine learning, increasing the speed of capabilities progress.
 
 - ★ How long does the reference class of "highly ambitious but feasible technology that a serious STEM field is explicitly trying to develop" generally take to develop? 
   - Relevance: 'human-level' AI is such a technology; relevant to Davidson report 
@@ -420,9 +419,9 @@ A floating point operation (FLOP) is here defined as one addition, subtraction, 
 
 - ★★ Practical relevance of benchmarks 1: How many years between a model achieving 75% on the Interview-level problems in the APPS benchmark, and AI models being able to do 45% of coding labour (as measured by the economic value of the labour). 
 
-- ★★ Practical relevance of benchmarks 2: How many years between a model achieving 75% on the Interview-level problems in the APPS benchmark, and it being possible to automate 20%/50 of ★overall★ labour? 
+- ★★ Practical relevance of benchmarks 2: How many years between a model achieving 75% on the Interview-level problems in the APPS benchmark, and it being possible to automate 20%/50 of overall labour? 
 
-- ★★ Practical relevance of benchmarks 3: How many years between a model achieving 75% on the Interview-level problems in the APPS benchmark, and 20%/50 of ★overall★ labour actually being automated.
+- ★★ Practical relevance of benchmarks 3: How many years between a model achieving 75% on the Interview-level problems in the APPS benchmark, and 20%/50 of overall labour actually being automated.
 
 - ★★ Practical relevance of benchmarks 4: How many years between a model achieving 75% on the competition-level problems in the APPS benchmark and 92% of coding being possible to automate? 
 
@@ -432,7 +431,7 @@ A floating point operation (FLOP) is here defined as one addition, subtraction, 
 
 - ★★ Practical relevance of benchmarks 7: How many years between a model achieving 75% on the competition-level problems in the APPS benchmark and PASTA arriving? (See here for definition of PASTA: https://www.cold-takes.com/transformative-ai-timelines-part-1-of-4-what-kind-of-ai/).
 
-- ★★ Practical Relevance of benchmarks 8: How many years between a model achieving the maximum possible score on the MMLU and it being possible to automate 15%25%/35%/50% of ★overall★ labour?
+- ★★ Practical Relevance of benchmarks 8: How many years between a model achieving the maximum possible score on the MMLU and it being possible to automate 15%25%/35%/50% of overall labour?
 
 - ★★ Practical Relevance of benchmarks 9: How many years between a model achieving the maximum possible score on the MMLU and 15%25%/35%/50% of labour actually being automated. 
 
@@ -442,11 +441,11 @@ A floating point operation (FLOP) is here defined as one addition, subtraction, 
 
 - ★★ Practical relevance of benchmarks 12: How many years between a model good enough to resolve this Metaculus question being trained, and 10/20/50/70/90% of labour actually being automated? https://www.metaculus.com/questions/5121/date-of-artificial-general-intelligence/
 
-- ★★ Practical relevance of benchmarks 13: How many years between a model good enough to resolve ★the non-robotics★ parts of the Metaculus question being trained, and and the arrival of Pasta?
+- ★★ Practical relevance of benchmarks 13: How many years between a model good enough to resolve non-robotics parts of the Metaculus question being trained, and and the arrival of Pasta?
 
-- ★★ Practical relevance of benchmarks 14: : How many years between a model good enough to resolve ★the non-robotics★ parts of the Metaculus question being trained and it being possible to automate 10/20/50/70/90% of labour? 
+- ★★ Practical relevance of benchmarks 14: : How many years between a model good enough to resolve non-robotics parts of the Metaculus question being trained and it being possible to automate 10/20/50/70/90% of labour? 
 
-- ★★ Practical relevance of benchmarks 15: How many years between a model good enough to resolve ★the non-robotics★ parts of the Metaculus question being trained and 10/20/50/70/90% of labour actually being automated?
+- ★★ Practical relevance of benchmarks 15: How many years between a model good enough to resolve non-robotics parts of the Metaculus question being trained and 10/20/50/70/90% of labour actually being automated?
 
 - ★ By 2027/2032/2043 will we see a demonstration where an AI "does the job of an ordinary office worker" in one office for a month? 
 
@@ -486,7 +485,7 @@ A floating point operation (FLOP) is here defined as one addition, subtraction, 
 
 - ★★ What year will the first commercially available corporate strategy planning programme be released?
 
-- ★ When will such strategy programmes be in use at least 10% of companies in the US/UK/China? (Note: these programs don't have to be sold ★as★ strategy producers, but just used to produce strategies at >10% of companies in practice.) 
+- ★ When will such strategy programmes be in use at least 10% of companies in the US/UK/China? (Note: these programs don't have to be sold as strategy producers, but just used to produce strategies at >10% of companies in practice.) 
 
 - ★★ By what year will it first be the case that 30% of labs at US universities make use of AI to propose theories and design experiments to test those theories at least once a year, as estimated by a [resolution council]?
 
@@ -1151,7 +1150,7 @@ Note: these questions make extensive use of [this alignment overview](https://ww
 
 - ★★ AI Governance survey 65: In 2026/2031/2036 will there be some official standard of interpretability that AI labs are legally required to comply with in the US/EU/UK/South Korea/Taiwan/Japan/Australia/Canada? 
 
-- ★ AI Governance survey 66: In 2025/2030/2035 what proportion of leading labs will have some procedure by which they check how safe a training run is ★during the training run★ (i.e. not just before starting training or after the training is done)?
+- ★ AI Governance survey 66: In 2025/2030/2035 what proportion of leading labs will have some procedure by which they check how safe a training run is *during the training run* (i.e. not just before starting training or after the training is done)?
 
 - ★ AI Governance survey 67: In 2025/2030/2035 what proportion of leading labs will have a policy of saving all logs of interactions with the systems they are training? 
 
@@ -1715,7 +1714,7 @@ Based on comments in the Slack at Trajan:
 
 - ★ By 2026/2030/2035, what will be the loss in $s from the most costly theft/fraud carried out by corrupting the dataset used in training a machine learning model, so that it responds in an unintended way to a specific input, and then making use of this flaw? (See p.8 of this: https://arxiv.org/pdf/1905.04223.pdf). 
 
-- ★ Chance that by 2030, this search query or its descendant will uncover 100 published academic papers with obvious GPT-written sections: <https://scholar.google.co.uk/scholar?hl=en&as_sdt=0%2C5&q=%22Regenerate★Response%2★★ -chatgpt&btnG=>
+- ★ Chance that by 2030, this search query or its descendant will uncover 100 published academic papers with obvious GPT-written sections: <https://scholar.google.co.uk/scholar?hl=en&as_sdt=0%2C5&q=%22Regenerate+response%22+-chatgpt&btnG=>
 
 - ★★ By 2026/2030/2036 will at least 2 leading labs collaborate on a project with a budget of at least $8/80/300 million dollars? 
 
