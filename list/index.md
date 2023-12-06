@@ -1765,7 +1765,7 @@ Based on comments in the Slack at Trajan:
 
 ## Acknowledgments
 
-This list of forecasting questions was started by David Mathers, Gavin Leech and Misha Yagudin, of [Arb Research](https://arbresearch.com/) and completed by Nuño Sempere, of [Shapley Maximizers](https://nunosempere.com/consulting/). Open Philanthropy provided funding.
+This list of forecasting questions was originally developed by David Mathers, Gavin Leech and Misha Yagudin, of [Arb Research](https://arbresearch.com/) and completed by Nuño Sempere, of [Shapley Maximizers](https://nunosempere.com/consulting/). Open Philanthropy provided funding.
 
 [^1]: At least absent a very, very large amount of algorithmic progress. 
 
