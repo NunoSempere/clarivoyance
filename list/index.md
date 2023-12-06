@@ -44,11 +44,11 @@ We have also worded many questions in terms of a "resolution council", which wou
 
 ### Recurring terms
 
-An specification for a [resolution council] is discussed in a separate document, [here](./resolution-council.md).
+An specification for a [resolution council] is discussed in a separate document, [here](https://github.com/NunoSempere/clarivoyance/blob/master/list/resolution-council.md).
 
 "Leading lab" is defined as a lab that has performed a training run within 2 orders of magnitude of the largest ever at the time of the training run, within the last 2 years.
 
-A floating point operation (FLOP) is here defined as one addition, subtraction, multiplication, or division of two decimal numbers, whatever their size. So doing substracting two 64 bit floats would here correspond to one FLOP, as would substracting two 8 bit "mini-floats". See [this document](./floats.md) for a short discussion of this point. 
+A floating point operation (FLOP) is here defined as one addition, subtraction, multiplication, or division of two decimal numbers, whatever their size. So doing substracting two 64 bit floats would here correspond to one FLOP, as would substracting two 8 bit "mini-floats". See [this document](https://github.com/NunoSempere/clarivoyance/blob/master/list/flops.md) for a short discussion of this point. 
 
 "Automating some fraction of labour" is operationalizes as follows:
 - Consider all human work hours in 2023 and their intended outputs. Then at the question resolution year, when aiming to produce the same types of outputs, how many fewer human hours will one need to achieve the same kind of output, or a close substitute?
