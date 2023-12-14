@@ -1,0 +1,149 @@
+cat index.md | grep "★★★ "
+
+★★★ = Highest Importance
+- ★★★ (FT) What will [resolution council]'s best estimate of the number of FLOPs used in the largest training run be by Jan 1st 2024/2025/2028/2030/2035/2040/2050?
+- ★★★ (FT) In 2025, how many FLOPs per second per dollar will NVIDIA's latest and most advanced chip offer?
+- ★★★ (FT) 2025/2030/2035 Penn Machine Learning benchmarks database halvings of compute.
+- ★★★ (FE, UF) How much money will be spent worldwide training AIs in the average year between 2024 to 2040, as a multiple of the amount spent in 2023? Question resolves according to the [resolution council]'s best estimate in 2040.
+- ★★★ (RP, DG) By what year will at least 15% of patents granted in the US be for designs generated primarily via AI? 
+- ★★★ (UF, RP) How long will be the gap between the first creation of an AI which could automate 65% of current labour, and the availability of an equivalently capable model as a free, open-source program? 
+- ★★★ (RP, FE) What fraction of labour will be automated between 2023 and 2028/2035/2040/2050/2100?
+- ★★★ (FT) What % of GDP in 2028/2035/2040/2050/2100 will correspond to salaries, as estimated by the [resolution council]?
+- ★★★ (FT) Of all work hours in 2028/2035/2040/2050/2100, how many will be spent overseeing AI models?
+- ★★★ (RP) Meta-capabilities question: by 2029, will there be a better way to assess the capabilities of models than testing their performance on question-and-answer benchmarks? 
+- ★★★ (UF) How much money will the US government cumulatively spend on training AI models between 2024 and 2040, as estimated by the [resolution council]? 
+- ★★★ (RP, UF) How much money will the Chinese government cumulatively spend on training AI models between 2024 and 2040, as estimated by the [resolution council]? 
+- ★★★ (UF) How much risk of extinction/permanent takeover by AI comes from the first training run of 10/100/1000/10k/100k the size of that used to train GPT-4? 
+- ★★★ (UF) How likely is the first model trained with 10/100/1000/10k/100k of GPT4's compute to send out unauthorized copies of itself across the internet?
+- ★★★ (UF, RP) Take-off speed: after automating 15% of labour, how long will it take until 60% of labour is automated? 
+- ★★★ Compute halvings for reaching 9 dan level at Go?
+- ★★★ (FT) When will adversarial robustness on RobustBench (https://robustbench.github.io/) reach 95%?
+- ★★★ (FT) AI speeding up science: Per [Our World in Data](https://ourworldindata.org/grapher/scientific-and-technical-journal-articles?tab=chart&country=~OWID_WRL), the number of articles published in scientific and technical journals went from 1.75M in 2008 to 2.55M in 2018. What will the number of such articles be in 2028/2038/2048?
+- ★★★ (FT) By what year will there first be 3/10/100 cities worldwide where taxis with no drivers are commercially available?
+- ★★★ (FE) Currently, how many working semiconductor chips are there worldwide? 
+- ★★★ (FE) Currently, how many working [GPUs](https://en.wikipedia.org/wiki/Graphics_processing_unit) are there worldwide?
+- ★★★ (FE, RP) How long does it take [TSMC](https://en.wikipedia.org/wiki/TSMC) to manufacture 100k GPUs? 
+- ★★★ (UF) When will a model first be trained using 2/4/6/8 OOMs more compute than was used to train GPT-4, as estimated by the [resolution council]?
+- ★★★ Long-term autonomous LLM operation when?
+- ★★★ (UF, RP) What is the % chance that by 2025/2030/35/40 an AI will persuade a human to commit a crime in order to further the AI's purposes? 
+- ★★★ (FT) Any large AIs successfully predicted to misbehave only from interpretability-based methods by [2025/2030/2050]?
+- ★★★ (FT) What is the % chance that some training run for a particular model will involve at least 4 million hours worth of human labour on providing feedback by 2025/2030/2035/2040/2045? 
+- ★★★ (UF, FE) How much more reduction in risk of AI takeover does a year's work from a top 1% safety researcher produce, compared to a 50th percentile researcher? 
+- ★★★ (FT) By 2026/2030/2034/2045, will there be at least one leading lab without an internal safety team?
+- ★★★ By 2025/2030/2040 how many Fields Medalists will have spent at least a year trying AI safety research?
+- ★★★ (FT) Will >= 85% of alignment researchers consider alignment to be solved by 2028/2033/2037/2042?
+- ★★★ (FT) At the end of the first year for which AI companies' revenues amount to 0.2%/2%/20% of US GDP, what % of alignment researchers will consider alignment to be solved?
+- ★★★ (UF) In 2025/2028/2031 what proportion of leading labs will attempt to monitor all models over a specified size for deceptive alignment? 
+- ★★★ (UF, FE) How much will governments worldwide spend on alignment research by 2027/2032/2037/2050? 
+- ★★★ (UF, FE) How much will the US federal government spend on alignment research by 2027/2032/2037/2050? 
+- ★★★ (UF, FE) How much will the EU and EU governments spend on alignment research by 2027/2032/2037/2050? 
+- ★★★ (UF, FE) How much will the Chinese government spend on alignment research by 2027/2032/2037/2050? 
+- ★★★ (UF) How much non-Open Philanthropy funding will go to AI safety throughout the years that [some proxy of OP's opinion/the resolution council] thinks was, in hindsight, valuable?
+- ★★★ (UF) By 2030/2035/2040, will at least one promising alignment idea have been invented by an AI?
+- ★★★ (UF, DG) By 2025/2028/2037 how many papers will have been written by researchers at Chinese organizations which Western alignment researchers rate as 9/10 or 10/10 contribution to alignment/safety research? 
+- ★★★ (UF) In 2026/2028/2033/2040 what fraction of researchers at leading labs will work on safety v. capabilities? 
+- ★★★ (FT) For [plausible agenda], what is the chance that [source] will, in hindsight, consider it to have been worth a $10M investment in 2023?
+- ★★★ (FT) For [plausible agenda], what is the chance that [source] will consider the agenda to have succeeded at [important proxy of success for the agenda]?
+- ★★★ (FT) For [plausible agenda], what is the chance that [source] will consider the agenda to have succeeded at the alignment problem, in general?
+- ★★★ (UF) For [plausible agenda], what is the reduction in probability of x-risk that [source] will estimate would come for a [$1M/$10M/...] investment into this agenda?
+- ★★★ (FT) Will the EU will pass a regulation openly designed to slow A.I. progress by 2028/2032/2036/2040/2044?
+- ★★★ (FT) Will the United States will pass a regulation designed to slow A.I. progress by 2028/2032/2036/2040/2044?
+- ★★★ (FT) By 2025/2030/2050, will the US/EU require leading labs to report their compute usage?
+- ★★★ (FT) By 2025/2030/2050, will the US/EU require leading labs to cap their compute usage when training their models?
+- ★★★ (FT) Condition on the US/EU requiring leading labs to report and cap their compute usage. Then, will at least one lab either simply break the rules or find a loophole that makes the restriction not very meaningful, as judged by the [resolution council]? 
+- ★★★ (FT) Will the US/China/EU government regularly audit AI labs for takeover risk reasons by 2028/2032/2036/2040/2044?
+- ★★★ (FT) What will the estimated budget of the EU/US/China regulatory organs responsible for overseeing AI development be in [year]?
+- ★★★ (FT) What will the estimated budget of the EU/US/China regulatory organs responsible for overseeing AI development be in [year], as a proportion of the operational budget of leading labs?
+- ★★★ (FT) On [year], will the [resolution council] rate the EU/US/China's regulatory response as being positive for AI risk, or negative?
+- ★★★ (FT) On [year], will the [resolution council] rate the EU/US/China's regulatory response to AI as being very lax, lax, stringent, or very stringent?
+- ★★★ (FT) By [year], will the EU/US/China's regulatory approach to AI require mathematical certainty about the safety of models before their deployment?
+- ★★★ (FT) By [year], will the EU/US/China's regulatory approach to AI impose liability on labs for the damages which their models cause or enable?
+- ★★★ (FT) Will the US gov/Chinese gov/EU regularly audit AI labs, for any reason by 2028/2032/2036/2040/2044? 
+- ★★★ (FT) Will there be a private organization which audits AI labs to assess the risk posed by advanced power-seeking models which at least 50% of leading non-Chinese labs have agreed to grant access to by 2027/2033/2040?
+- ★★★ (FT) If the US government institutes a compute cap in 2025, how many OOMs does the US fall behind China by 2030?
+- ★★★ (FT) Will any AI regulation treaty designed to stop a dangerous AI arms race be signed by the US and China by 2025/2030/2035/2040? 
+- ★★★ (FT) Will the [EU AI Act](https://artificialintelligenceact.eu/) contain language subjecting general purpose AI systems to some of the same regulations as systems classified as high risk?
+- ★★★ (UF) How many AI labs will have allowed the Alignment Research Centre evaluation project to examine one of their models pre-commercial release by Jan 2026? 
+- ★★★ (FT) How many AI labs will publicly be known to have allowed the Alignment Research Centre evaluation project to examine one of their models pre-commercial release by Jan 2026? 
+- ★★★ (UF) By 2025/2028/2033/2040 will there be de-facto agreement among all US leading labs to avoid training runs over a certain size?  
+- ★★★ (FT) By 2025/2028/2033/2040 will there be a public agreement among all US leading labs to avoid training runs over a certain size?  
+- ★★★ (FE) Conditional on such a ban, how much money will the US gov allocate per year to enforcing it? 
+- ★★★ (UF) Will the Chinese gov (officially or unofficially) ban training runs over a certain size by  2025/2028/2033/2040?
+- ★★★ (FE) Conditional on such a ban, how much money will the Chinese government spend on enforcing it? 
+- ★★★ (FT) By 2028/2032/2035/2040, will the US government attempt to track all AI chips above a performance  threshold purchased within the US? 
+- ★★★ (FT) By 2028/2032/2035/2040 will the EU attempt to track all AI chips above a performance threshold purchased within the EU? 
+- ★★★ (FT) By 2028/2032/2035/2040 will the Taiwanese government attempt to track all AI chips above a performance threshold purchased within the EU? 
+- ★★★ (FT) By 2025/2030/2035 how many and what proportion of leading labs will have published documents specifically stating circumstances in which they'd pause training runs for safety reasons?
+- ★★★ (FT) By 2025/2028/2033/2040 will there be some particular capability or capabilities such that US leading labs have all publicly committed that if an AI anywhere displayed that capability, they would pause all training? 
+- ★★★ (UF, FE, RP) Consider the first AI model able to individually perform any cognitive labour that a human can. Then, how likely is the chance of an deliberately engineered pandemic which kills >20% of the world's population in the 50 years after the first such model is built?
+- ★★★ (UF, FE, RP) How does the probability of the previous question change if models are widely available to citizens and private businesses, compared to if only government and specified trusted private organizations are allowed to use them? 
+- ★★★ (FT) By 2030/2035/2040 will there be a treaty restricting AI development which the US, UK, China and the EU have all signed? 
+- ★★★ (FT) Integrated AI safety chip checks by 2027/2030/2035/2040? 
+- ★★★ (FT) Will integrated AI safety chip checks as described in the previous question actually be be required by laws or regulations in the US/EU/China/Japan/South Korea/Taiwan by 2029/2033/2038/2044? 
+- ★★★ (FT) Will any international treaty around AI signed between the US and China require the use integrated AI safety chip checks, as described in the question before last?
+- ★★★ (UF) Red-teaming: Between 2024 and 2040, what proportion of training runs at least 50x larger than that used to train GPT-4 will be red-teamed before they're started?
+- ★★★ (FT) AI Governance survey 3: Will any lab deliberately connect a model trained with 1/2/5 OOMs more compute than GPT-4 to the internet by 2025/2030/2040? 
+- ★★★ (FT) AI Governance survey 5: In 2025/2030/2035 what proportion of leading labs will specifically test for power-seeking behaviour before deploying models? 
+- ★★★ (FT) AI Governance survey 7: By 2025/2030/2035 what proportion of leading labs will specifically test for ability and willingness to manipulate before deploying models?
+- ★★★ (FT) AI Governance survey 11: In 2025/2030/2035 what proportion of leading labs will have a policy of reviewing potential dangers before starting training runs of systems, or systems over a certain size? 
+- ★★★ (FT) AI Governance survey 13: In 2025/2030/2035 what proportion of leading labs will have an official emergency response procedure, to be implemented if they suddenly realize that one of their models is dangerous? 
+- ★★★ (FT) AI Governance survey 15: By 2025/2030/2035 what proportion of leading labs will have official, published, alignment strategies? 
+- ★★★ (FT) AI Governance survey 23: By 2025/2030/2035 what proportion of leading labs will have published one of their own internal risks assessments of a model? 
+- ★★★ AI Governance survey 26: By 2025/2030/2035, what proportion of leading labs will have published a statement on 'how they make high-stakes decisions regarding model development and deployment'. (Quote from p.19 of https://arxiv.org/pdf/2305.07153.pdf). 
+- ★★★ AI Governance survey 27: By 2025/2030/2035, what proportion of leading labs will conduct [know-your-customer]((https://www.dowjones.com/professional/risk/glossary/know-your-customer/) screenings of organizations asking to access their most powerful AI models? 
+- ★★★ (FT) AI Governance survey 39: By 2025/2030/2035 what proportion of leading labs will have a policy of performing pre-deployment risk assessments even when they are only deploying a model internally for work within the lab itself? 
+- ★★★ (UF) AI Governance survey 41: By 2025/2030/2035 what proportion of leading labs will give access to their models to researchers from other labs, for safety-testing? 
+- ★★★ (UF) AI Governance survey 51: In 2025/2030/2035 what proportion of leading labs will have a written plan specifying the actions they would take if they thought they were about to train [a system above a pre-specified qualitative capabilities threshold capturing some notion of transformative capabilities/human-level AI/a system that might recursively improve itself]?
+- ★★★ (FT) AI Governance survey 60: In 2025/2030/2035 what proportion of leading labs will have 'independent safety and ethics advisory boards'? 
+- ★★★ (UF) AI Governance survey 73: In 2025/2030/2035 what proportion of leading labs will have internal controls and processes that prevent a single person or group being able to deploy an advanced AI system when governance mechanisms have found this to be potentially harmful or illegal? 
+- ★★★ (FT) By 2025/2030/2040, will any US State of the Union addresses mention the issue of AI takeover risk as a concern?
+- ★★★ (FT) In [year], will any State of the European Union addresses by the president of the EU mention the issue of AI takeover risk as a concern?
+- ★★★ (FE, UF) By 2026/2030/2040 how much will compliance costs be as a percentage of AI industry gross profit (<https://en.wikipedia.org/wiki/Compliance_cost>), both as estimated by the [resolution council]?
+- ★★★ (FT) By end-of-year 2026 will OpenAI or DeepMind announce that they are pausing all training runs above a certain size for safety reasons? 
+- ★★★ (UF) In 2026/2028/2035/2040 will the largest training run—in terms of FLOPs spent—take place in a) an American, b) a Chinese or c) an European lab?
+- ★★★ (UF) In 2026/2028/2035/2040 how many FLOPs will the largest training run in [Europe/China/the US] have taken?
+- ★★★ (FT) By 2030, as estimated by the [resolution council], will the largest training run have been carried out by a private lab or by a government?
+- ★★★ (FT) By 2028, will the best Large Language Model have been produced by a company specializing in AI, like Open AI, or a large non-specialist tech company, like Facebook or Baidu? 
+- ★★★ (FT) Will the US create a National AI research resource, as suggested [here](https://hai.stanford.edu/policy/national-ai-research-resource)?
+- ★★★ (FT) During any year between now and 2045 will there be an Israeli leading lab?
+- ★★★ (FT) During any year between now and 2045 will there be an Indian leading lab?
+- ★★★ (FT) Will the [US/Chinese] [government/military] openly announce a project with the goal of building AI "as capable/intelligent as a human" by 2026/2030/2045?
+- ★★★ (FT) US/Chinese [government/military] be reported to secretly launch a project with the goal of building AI "as capable/intelligent as a human" by 2026/2030/2045?
+- ★★★ (FT) US/Chinese government reported to be trying to deliberately slow down the development of AI due to safety concerns by 2026/2030/2045?
+- ★★★ (UF) If a private lab develops transformative AI first, what is the chance—conditional on them retaining control of the AI—that it will effectively be a world government within 30 years?
+- ★★★ (UF) Condition on the US government being the first to develop transformative AI, and on it subsequently maintaining control of said AI. Then, will the US government effectively be a world government within 30 years?
+- ★★★ (UF) Condition on the China government being the first to develop transformative AI, and on it subsequently maintaining control of said AI. Then, will the China government effectively be a world government within 30 years?
+- ★★★ (FT) Will any nation build autonomous, AI-operated battle drones or robots by 2025/2030/2050? 
+- ★★★ (FT) Will the US government attempt to ban the training of AI agents above some capabilities threshold by 2030/2035/2040/2045?
+- ★★★ (FT) Will the EU attempt to ban the training of AI agents above some capabilities threshold by 2030/2035/2040/2045?
+- ★★★ (FT) Will China attempt to ban the training of AI agents above some capabilities threshold by 2030/2035/2040/2045?
+- ★★★ (UF) By the time 25% of the US economy is automated, will over 10% of AI compute be spent by only [1/2] model(s)? 
+- ★★★ (UF) Will there be a point in time where a) over 70% of labour in the US as performed in 2023 has been automated, but b) no one AI model is spending more than 5% of total AI compute?
+- ★★★ (UF) In [year], what fraction of US work hours will be spent interacting with an AI?
+- ★★★ (FT) When, if ever will the first company with a market cap of over [$1B/$10B/$100B] be openly run by a CEO-bot?
+- ★★★ (UF, FE) What fraction of upper-management at DeepMind/Open AI/Anthropic secretly agree with Eliezer Yudkowsky's claim that the first lab to reach "AGI" needs to perform a ["pivotal act"](https://forum.effectivealtruism.org/posts/q6t5zKCg5peZA92Zu/pivotal-act-intentions-negative-consequences-and-fallacious#comments) that prevents anyone else building dangerous AGI?
+- ★★★ (UF) In 2025/2030/2035 what % of AI safety researchers would, when surveyed, say that [Open Philanthropy's 2017 grant to Open AI](https://www.openphilanthropy.org/grants/openai-general-support/) overall had a negative impact? 
+- ★★★ (UF, FE) How much does the probability that an AI model as smart as a human or above attempts to take over the world go up for every discussion of how AI could take over the world in its training data?
+- ★★★ (UF) By what year, if ever, will it be discovered that an AI has sent out copies of itself using the internet, without being instructed to do so by a human? 
+- ★★★ (UF) When if ever, will an AI seize control remotely of a [computer cluster](<https://en.wikipedia.org/wiki/Computer_cluster>)?
+- ★★★ (UF, FE) When, if ever, will over [0.1%/1%/10%] of compute in the world be under the control of AIs who have stolen it, without being directed by a human to do so? 
+- ★★★ (FT) By 2026/2030/2040 will the [resolution council] know of an event that, in its judgment, demonstrates deceptive alignment in a model trained with at least 0.1/1/10/100x as much compute as GPT-4? 
+- ★★★ (FT) By 2025/2030/2035/2040 will [an LLM/an AI system] attempt to take over a simulated world that it doesn't think is fake?
+- ★★★ (UF, FE) In world A, we reach AI able to fully automate labour by 2040. In world B, we reach AI able to fully automate labour by 2065. What is the chance of a global catastrophe which kills over 75% of the population in world A by 2100? And in world B by 2100?
+- ★★★ (FT) Condition on the AI Impacts survey being re-run in 2025/2028/2035. Then, what will the median probability from respondents on permanent human disempowerment or extinction?
+- ★★★ (UF) In 2025/2030/2035/2040 will there be any leading lab where >75% of researchers disagree with the statement "AI takeover is a serious concern". 
+- ★★★ (UF) In 2025/2030/2035/2040 what fraction of machine learning researchers with above 2k google scholar citations per year would agree with the statement "AI takeover is a serious concern"? 
+- ★★★ (UF) If the AI impacts survey was re-run tomorrow on the original researchers with enough monetary reward to guarantee a 100% response rate, what fraction of respondents would agree there is an >5% chance of human extinction from AI by 2100? 
+- ★★★ 25 years after AI is able to automate >[25%/50%/70%] of non-manual labour, what proportion of surviving people who were leading academics in International Relations at the point in time where >[25%/50%/75%] automation became possible, will think that AI has made geopolitics less stable? 
+- ★★★ (UF, FE) Imagine we push the time by which we develop AI capable of performing all non-manual labour back by 5 years. Then, how does the chance that there will be AI takeover within 100 years of its invention change? 
+- ★★★ (FE, RP) What is the total number of EAs in technical AI alignment 
+- ★★★ (FE, RP) What is the total number of non-EAs in technical AI alignment?
+- ★★★ (FT) When will a model trained using 2/4/6 OOMs more compute than GPT-4 be downloadable by the general public? 
+- ★★★ (FT) What will be the estimated size of the largest publicly downloadable model in 2023/2025/2030/2050?
+- ★★★ Will molecular nanotechnology of the kind proposed by Drexler have been proven feasible by 2040/2050/2060?
+- ★★★ (DG) What fraction of US academics with over >200 citations for their work on nanotech would give an >70% chance that Drexler will be vindicated eventually?
+- ★★★ (FT, DG) By 2030/2040/2050, how much will the answer to the previous question have increased/decreased? 
+- ★★★ (RP) How likely is it that an AI could get nanomachines built just by making ordinary commercial purchases online, and obtaining the cooperation of <30 human beings without scientific skills above masters degrees in relevant subjects? 
+- ★★★ (UF) If an AI actually did manufacture Drexlerian nanotech using the cooperation of only small number of people, would that really scale, within 6 months, to such an AI being able to wipe out all humans if it wants to? 
+- ★★★ (UF) How many AI run factories, without on-site human supervision, will there be in the US/China/EU/Japan/South Korea by 2037/2042/2050? 
+- ★★★ (UF) Condition on no AI takeover. Then, if >97% of labour is automated in the US by 2100, what will the median US human annual income be 10/20/50 years after reaching >97% automation?
