@@ -1,5 +1,12 @@
 cat index.md | grep "★★★ "
 
+- Questions marked by (FE), are good targets for Fermi estimates. In isolation, each of those Fermi estimates might not mean much, but in aggregate, a bunch of them might contribute to having better models. Open Philanthropy could put bounties for good Fermi estimates on these questions, or solicit bids from researcher interested in doing Fermi estimates.
+- Questions, marked by (RP), require more involved research to arrive at a high-quality answer. They could be a good fit for institutions that can produce research that takes longer, like think tanks, research fellowships, etc.
+- Questions, marked by (FT), are good fits for forecasting tournaments. These could be put up on a platform, like Manifold Markets, Polymarket, or Metaculus. A forecasting group, like Samotsvety, could also be useful for questions where there is no clear resolution method. In [this adjacent document](./resolution-council.md), we also outline a "resolution council", which could subjectively resolve questions which would otherwise have no resolution source.
+- Some questions, marked by (UF), have a similar shape to a forecasting question, but they might be unresolvable or too difficult to resolve. If might be worth commissioning a forecasting group like Samotsvety to forecast on them.
+- Some questions, marked by (DG), are good targets for data gathering, in the style of Our World In Data (OWID). Perhaps OWID itself could be commissioned to gather and present some of this data. Other groups, like Epoch or AI impacts, might also be interested in looking into this.
+
+
 ★★★ = Highest Importance
 - ★★★ (FT) What will [resolution council]'s best estimate of the number of FLOPs used in the largest training run be by Jan 1st 2024/2025/2028/2030/2035/2040/2050?
 - ★★★ (FT) In 2025, how many FLOPs per second per dollar will NVIDIA's latest and most advanced chip offer?
